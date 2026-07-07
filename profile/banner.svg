@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1176 336" width="1176" height="336" font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" role="img" aria-label="XAgent — build, run and monetize AI agents. Est. 2025.">
+  <defs>
+    <pattern id="grid" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.9" fill="#0A0A0A" fill-opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <!-- paper -->
+  <rect x="0" y="0" width="1176" height="336" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1176" height="336" fill="url(#grid)"/>
+
+  <!-- pixel-stepped corner registration brackets (8-bit craft) -->
+  <g fill="#0A0A0A">
+    <!-- top-left -->
+    <path d="M28 28 h84 v6 h-78 v78 h-6 z"/>
+    <!-- top-right -->
+    <path d="M1148 28 v84 h-6 v-78 h-78 v-6 z"/>
+    <!-- bottom-left -->
+    <path d="M28 308 v-84 h6 v78 h78 v6 z"/>
+    <!-- bottom-right -->
+    <path d="M1148 308 h-84 v-6 h78 v-78 h6 z"/>
+  </g>
+
+  <!-- mono kicker -->
+  <text x="56" y="70" font-family="'SFMono-Regular', ui-monospace, Menlo, Consolas, monospace" font-size="13" letter-spacing="4.2" fill="#0A0A0A" text-transform="uppercase">BUILD &#183; RUN &#183; MONETIZE AI AGENTS</text>
+  <text x="1120" y="70" text-anchor="end" font-family="'SFMono-Regular', ui-monospace, Menlo, Consolas, monospace" font-size="13" letter-spacing="4.2" fill="#8b8b8b">EST. 2025</text>
+
+  <!-- neon marker swipe under the wordmark -->
+  <path d="M232 214 l700 -6 l4 34 l-702 8 z" fill="#d8ff00"/>
+
+  <!-- wordmark: X red, AGENT ink -->
+  <text x="52" y="232" font-size="176" font-weight="800" letter-spacing="-8" fill="#0A0A0A"><tspan fill="#e0492a">X</tspan>AGENT</text>
+
+  <!-- tagline -->
+  <text x="56" y="288" font-size="21" fill="#2a2a2a" letter-spacing="-0.2">Describe an agent in plain language — ship a product that earns. On-chain by design.</text>
+
+  <!-- tetris / pixel nod, bottom-right -->
+  <g>
+    <rect x="1036" y="252" width="26" height="26" fill="#e0492a"/>
+    <rect x="1062" y="252" width="26" height="26" fill="#0A0A0A"/>
+    <rect x="1088" y="252" width="26" height="26" fill="#d8ff00"/>
+    <rect x="1062" y="226" width="26" height="26" fill="#0A0A0A"/>
+  </g>
+</svg>
