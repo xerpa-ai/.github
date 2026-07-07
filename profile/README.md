@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.svg" alt="XAgent — build, run and monetize AI agents" width="100%">
+  <img src="./hero.svg" alt="XAgent — build, run and monetize AI agents" width="100%">
 </div>
 
 <p align="center">
