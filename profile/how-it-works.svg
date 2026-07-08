@@ -1,109 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1056 300" width="1056" height="300" role="img" aria-label="XAgent premium product architecture flow">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1056 340" width="1056" height="340" role="img" aria-label="XAgent product pipeline">
   <defs>
-    <pattern id="boardGrid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#DCE6E2" stroke-width="1" stroke-opacity=".42"/>
+    <pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <path d="M18 0H0V18" fill="none" stroke="#EDF3EF" stroke-width="1"/>
     </pattern>
-    <linearGradient id="rail" x1="116" y1="0" x2="940" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#34D399"/>
-      <stop offset=".48" stop-color="#5BA7FF"/>
-      <stop offset="1" stop-color="#22C55E"/>
+    <radialGradient id="halo" cx="50%" cy="52%" r="68%">
+      <stop offset="0" stop-color="#EFFFF6" stop-opacity=".85"/>
+      <stop offset=".52" stop-color="#F7FBFF" stop-opacity=".52"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="signal" x1="82" y1="0" x2="974" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5FE3A1"/>
+      <stop offset=".46" stop-color="#73B7FF"/>
+      <stop offset="1" stop-color="#5FE3A1"/>
     </linearGradient>
-    <linearGradient id="sheet" x1="0" y1="0" x2="0" y2="300" gradientUnits="userSpaceOnUse">
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset="1" stop-color="#F8FBFA"/>
+      <stop offset="1" stop-color="#F8FCFA"/>
     </linearGradient>
-    <filter id="lift" x="-20%" y="-40%" width="140%" height="180%">
-      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#1F3B34" flood-opacity=".07"/>
+    <filter id="lift" x="-18%" y="-35%" width="136%" height="170%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#173A28" flood-opacity=".09"/>
     </filter>
     <style>
-      .eyebrow{font:600 10px SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;letter-spacing:2.6px;fill:#7B8A86}
-      .title{font:500 28px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#15231F}
-      .label{font:650 14px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#1E2A27}
-      .caption{font:500 11px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#75827E}
-      .mono{font:500 10px SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;letter-spacing:.55px;fill:#62716C}
-      .tiny{font:600 9px SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;letter-spacing:1.7px;fill:#8E9A96}
+      .kicker{font:700 10px SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;letter-spacing:2.5px;fill:#7B8983}
+      .title{font:680 28px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#121A17}
+      .label{font:720 15px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#17211D}
+      .body{font:520 12px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#73817A}
+      .mono{font:600 10px SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;letter-spacing:1.2px;fill:#6E7D76}
+      .fine{font:560 10.5px SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;fill:#607169}
     </style>
   </defs>
 
-  <rect width="1056" height="300" rx="18" fill="url(#sheet)"/>
-  <rect x="16" y="16" width="1024" height="268" rx="12" fill="url(#boardGrid)"/>
-  <rect x="16.5" y="16.5" width="1023" height="267" rx="11.5" fill="none" stroke="#D8E2DE"/>
-  <path d="M42 84H1014M42 222H1014" stroke="#D7E2DE"/>
-  <path d="M42 84H240M816 222H1014" stroke="#35D18E" stroke-width="1.5"/>
+  <rect width="1056" height="340" rx="22" fill="#FFFFFF"/>
+  <rect width="1056" height="340" rx="22" fill="url(#grid)"/>
+  <rect width="1056" height="340" rx="22" fill="url(#halo)"/>
+  <rect x="1" y="1" width="1054" height="338" rx="22" fill="none" stroke="#DAE6DF"/>
 
-  <text x="42" y="45" class="eyebrow">XAGENT / PRODUCT ARCHITECTURE BOARD</text>
-  <text x="42" y="72" class="title">How intent becomes an agent product</text>
-  <text x="1014" y="45" text-anchor="end" class="eyebrow">SPEAK / BUILD / RUN / SETTLE</text>
+  <text x="54" y="44" class="kicker">XAGENT / PRODUCT PIPELINE</text>
+  <text x="54" y="78" class="title">Speak, build, run, settle.</text>
+  <text x="1002" y="44" text-anchor="end" class="kicker">AGENT PRODUCT SYSTEM</text>
+  <path d="M54 100H1002" stroke="#DCE6E0"/>
+  <path d="M54 100H312" stroke="#5FE3A1" stroke-width="2"/>
 
-  <path d="M116 153H940" fill="none" stroke="#D2DED9" stroke-width="14" stroke-linecap="round"/>
-  <path d="M116 153H940" fill="none" stroke="url(#rail)" stroke-width="2.5" stroke-linecap="round"/>
-  <g fill="#FFFFFF" stroke="#AFC0B9" stroke-width="1.25">
-    <circle cx="116" cy="153" r="8"/>
-    <circle cx="352" cy="153" r="8"/>
-    <circle cx="588" cy="153" r="8"/>
-    <circle cx="824" cy="153" r="8"/>
-    <circle cx="940" cy="153" r="8"/>
-  </g>
-  <g fill="#34D399">
-    <circle cx="116" cy="153" r="3"/>
-    <circle cx="352" cy="153" r="3"/>
-    <circle cx="588" cy="153" r="3"/>
-    <circle cx="824" cy="153" r="3"/>
-  </g>
-  <circle cx="940" cy="153" r="3" fill="#5BA7FF"/>
+  <path d="M248 183H350" stroke="#D2E2DA" stroke-width="18" stroke-linecap="round"/>
+  <path d="M710 183H760" stroke="#D2E2DA" stroke-width="18" stroke-linecap="round"/>
+  <path d="M248 183H350" stroke="url(#signal)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M710 183H760" stroke="url(#signal)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M334 174L352 183L334 192" fill="none" stroke="#5FE3A1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M744 174L762 183L744 192" fill="none" stroke="#5FE3A1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 
   <g filter="url(#lift)">
-    <g transform="translate(64 112)">
-      <rect width="160" height="82" rx="6" fill="#FFFFFF" stroke="#CBD8D3"/>
-      <path d="M16 19H54M16 63H104" stroke="#33D18D" stroke-width="2" stroke-linecap="round"/>
-      <text x="16" y="38" class="label">Intent</text>
-      <text x="16" y="56" class="caption">natural language brief</text>
-      <text x="128" y="22" class="tiny">01</text>
-    </g>
-    <g transform="translate(300 112)">
-      <rect width="160" height="82" rx="6" fill="#FFFFFF" stroke="#CBD8D3"/>
-      <path d="M16 19H74M16 63H122" stroke="#5BA7FF" stroke-width="2" stroke-linecap="round"/>
-      <text x="16" y="38" class="label">Builder</text>
-      <text x="16" y="56" class="caption">skills, tools, flows</text>
-      <text x="128" y="22" class="tiny">02</text>
-    </g>
-    <g transform="translate(536 112)">
-      <rect width="160" height="82" rx="6" fill="#FFFFFF" stroke="#CBD8D3"/>
-      <path d="M16 19H66M16 63H134" stroke="#33D18D" stroke-width="2" stroke-linecap="round"/>
-      <text x="16" y="38" class="label">Runtime</text>
-      <text x="16" y="56" class="caption">memory, policy, wallet</text>
-      <text x="128" y="22" class="tiny">03</text>
-    </g>
-    <g transform="translate(772 112)">
-      <rect width="160" height="82" rx="6" fill="#FFFFFF" stroke="#CBD8D3"/>
-      <path d="M16 19H88M16 63H118" stroke="#5BA7FF" stroke-width="2" stroke-linecap="round"/>
-      <text x="16" y="38" class="label">Market</text>
-      <text x="16" y="56" class="caption">publish and settle</text>
-      <text x="128" y="22" class="tiny">04</text>
-    </g>
+    <rect x="82" y="134" width="166" height="98" rx="18" fill="url(#panel)" stroke="#D2E1D8"/>
+    <rect x="350" y="118" width="360" height="130" rx="24" fill="url(#panel)" stroke="#CFE0D7"/>
+    <rect x="760" y="134" width="214" height="98" rx="18" fill="url(#panel)" stroke="#D2E1D8"/>
   </g>
 
-  <g fill="none" stroke="#BFD0CA" stroke-width="1">
-    <path d="M224 153H300"/>
-    <path d="M460 153H536"/>
-    <path d="M696 153H772"/>
-  </g>
-  <g fill="#FFFFFF" stroke="#32C987" stroke-width="1.5">
-    <path d="M288 147L300 153L288 159"/>
-    <path d="M524 147L536 153L524 159"/>
-    <path d="M760 147L772 153L760 159"/>
-  </g>
+  <text x="106" y="164" class="mono">01 INTENT</text>
+  <text x="106" y="193" class="label">Plain language</text>
+  <text x="106" y="216" class="body">requirements, goals,</text>
+  <text x="106" y="234" class="body">constraints</text>
+  <path d="M106 148H182" stroke="#5FE3A1" stroke-width="3" stroke-linecap="round"/>
 
-  <g transform="translate(64 236)">
-    <rect width="928" height="32" rx="5" fill="#FFFFFF" stroke="#D4E0DC"/>
-    <path d="M14 16H118" stroke="#35D18E" stroke-width="2" stroke-linecap="round"/>
-    <path d="M798 16H914" stroke="#5BA7FF" stroke-width="2" stroke-linecap="round"/>
-    <text x="140" y="20" class="mono">runtime spine: acts / remembers / calls tools / connects accounts / wallet-aware policy / x402 settlement</text>
-  </g>
+  <text x="388" y="152" class="mono">02 BUILDER + RUNTIME</text>
+  <text x="388" y="183" class="label">Agent operating core</text>
+  <text x="388" y="207" class="body">skills, memory, tools, accounts</text>
+  <path d="M388 226H604" stroke="#D6E6DE" stroke-width="1"/>
+  <text x="388" y="238" class="fine">acts / remembers / signs policy</text>
+  <circle cx="648" cy="182" r="34" fill="#F6FCF9" stroke="#CFE2D8"/>
+  <circle cx="648" cy="182" r="8" fill="#5FE3A1"/>
+  <path d="M624 182H672" stroke="#73B7FF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M648 158V206" stroke="#D6E6DE" stroke-width="1"/>
 
-  <g transform="translate(862 62)">
-    <path d="M0 0H130V28H0Z" fill="#FFFFFF" stroke="#D4E0DC"/>
-    <circle cx="18" cy="14" r="4" fill="#35D18E"/>
-    <text x="34" y="18" class="mono">VERIFIED CONTRACTS</text>
-  </g>
+  <text x="786" y="164" class="mono">03 PRODUCT</text>
+  <text x="786" y="193" class="label">Publish + settle</text>
+  <text x="786" y="216" class="body">marketplace, usage,</text>
+  <text x="786" y="234" class="body">x402 rails</text>
+  <path d="M786 148H910" stroke="#73B7FF" stroke-width="3" stroke-linecap="round"/>
+
+  <rect x="82" y="276" width="892" height="38" rx="15" fill="#F8FCFA" stroke="#DCE8E1"/>
+  <path d="M106 295H214" stroke="#5FE3A1" stroke-width="3" stroke-linecap="round"/>
+  <text x="240" y="299" class="fine">verified contracts</text>
+  <text x="404" y="299" class="fine">hosted runtime</text>
+  <text x="566" y="299" class="fine">wallet-aware execution</text>
+  <text x="792" y="299" class="fine">x402 settlement</text>
+  <path d="M914 295H950" stroke="#73B7FF" stroke-width="3" stroke-linecap="round"/>
 </svg>
