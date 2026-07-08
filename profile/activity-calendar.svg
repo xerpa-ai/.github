@@ -1,503 +1,402 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1056 300" width="1056" height="300" role="img" aria-label="XAgent public GitHub activity calendar with day and hour signals">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1056 250" width="1056" height="250" role="img" aria-label="XAgent organization engineering activity calendar">
 <defs>
-<pattern id="grid" width="14" height="14" patternUnits="userSpaceOnUse"><path d="M14 0H0V14" fill="none" stroke="#667A70" stroke-opacity=".04" stroke-width="1"/></pattern>
-<linearGradient id="softSignal" x1="0" x2="1"><stop offset="0" stop-color="#5FE3A1" stop-opacity=".95"/><stop offset="1" stop-color="#5FE3A1" stop-opacity=".12"/></linearGradient>
+<style>
+.title{font:700 17px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#d8dee9}
+.text{font:600 14px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#c9d1d9}
+.muted{font:500 12px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#6e7681}
+.mono{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}
+</style>
+<linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#30363d"/><stop offset="1" stop-color="#1f6feb" stop-opacity=".16"/></linearGradient>
 </defs>
-<rect width="1056" height="300" fill="#FFFFFF"/>
-<rect width="1056" height="300" fill="url(#grid)"/>
-<path d="M34 58H1022" stroke="#667A70" stroke-opacity=".16"/>
-<path d="M34 58H312" stroke="url(#softSignal)" stroke-width="1.6"/>
-<text x="34" y="38" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.1" fill="#7E8D86" >PUBLIC GITHUB ACTIVITY / DAY + HOUR SIGNAL</text>
-<text x="1022" y="38" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.1" fill="#7E8D86" text-anchor="end">70 COMMITS / 13 ACTIVE DAYS</text>
-<rect x="34" y="75" width="7" height="30" rx="2" fill="#5FE3A1" opacity=".95"><title>week signal 1: 17 public commits, 8 heartbeat points</title></rect>
-<rect x="46" y="92" width="7" height="13" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 2: 0 public commits, 2 heartbeat points</title></rect>
-<rect x="58" y="84" width="7" height="21" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 3: 0 public commits, 5 heartbeat points</title></rect>
-<rect x="70" y="81" width="7" height="24" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 4: 0 public commits, 6 heartbeat points</title></rect>
-<rect x="82" y="70" width="7" height="35" rx="2" fill="#5FE3A1" opacity=".95"><title>week signal 5: 6 public commits, 10 heartbeat points</title></rect>
-<rect x="94" y="64" width="7" height="41" rx="2" fill="#A9EDCA" opacity=".72"><title>week signal 6: 0 public commits, 12 heartbeat points</title></rect>
-<rect x="106" y="81" width="7" height="24" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 7: 0 public commits, 6 heartbeat points</title></rect>
-<rect x="118" y="72" width="7" height="33" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 8: 0 public commits, 9 heartbeat points</title></rect>
-<rect x="130" y="87" width="7" height="18" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 9: 0 public commits, 4 heartbeat points</title></rect>
-<rect x="142" y="89" width="7" height="16" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 10: 0 public commits, 3 heartbeat points</title></rect>
-<rect x="154" y="75" width="7" height="30" rx="2" fill="#5FE3A1" opacity=".95"><title>week signal 11: 2 public commits, 8 heartbeat points</title></rect>
-<rect x="166" y="81" width="7" height="24" rx="2" fill="#5FE3A1" opacity=".95"><title>week signal 12: 2 public commits, 6 heartbeat points</title></rect>
-<rect x="178" y="70" width="7" height="35" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 13: 0 public commits, 10 heartbeat points</title></rect>
-<rect x="190" y="75" width="7" height="30" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 14: 0 public commits, 8 heartbeat points</title></rect>
-<rect x="202" y="64" width="7" height="41" rx="2" fill="#5FE3A1" opacity=".95"><title>week signal 15: 6 public commits, 12 heartbeat points</title></rect>
-<rect x="214" y="64" width="7" height="41" rx="2" fill="#5FE3A1" opacity=".95"><title>week signal 16: 8 public commits, 12 heartbeat points</title></rect>
-<rect x="226" y="89" width="7" height="16" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 17: 0 public commits, 3 heartbeat points</title></rect>
-<rect x="238" y="84" width="7" height="21" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 18: 0 public commits, 5 heartbeat points</title></rect>
-<rect x="250" y="84" width="7" height="21" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 19: 0 public commits, 5 heartbeat points</title></rect>
-<rect x="262" y="67" width="7" height="38" rx="2" fill="#A9EDCA" opacity=".72"><title>week signal 20: 0 public commits, 11 heartbeat points</title></rect>
-<rect x="274" y="81" width="7" height="24" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 21: 0 public commits, 6 heartbeat points</title></rect>
-<rect x="286" y="72" width="7" height="33" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 22: 0 public commits, 9 heartbeat points</title></rect>
-<rect x="298" y="72" width="7" height="33" rx="2" fill="#5FE3A1" opacity=".95"><title>week signal 23: 8 public commits, 9 heartbeat points</title></rect>
-<rect x="310" y="78" width="7" height="27" rx="2" fill="#5FE3A1" opacity=".95"><title>week signal 24: 3 public commits, 7 heartbeat points</title></rect>
-<rect x="322" y="81" width="7" height="24" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 25: 0 public commits, 6 heartbeat points</title></rect>
-<rect x="334" y="87" width="7" height="18" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 26: 0 public commits, 4 heartbeat points</title></rect>
-<rect x="346" y="72" width="7" height="33" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 27: 0 public commits, 9 heartbeat points</title></rect>
-<rect x="358" y="78" width="7" height="27" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 28: 0 public commits, 7 heartbeat points</title></rect>
-<rect x="370" y="72" width="7" height="33" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 29: 0 public commits, 9 heartbeat points</title></rect>
-<rect x="382" y="72" width="7" height="33" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 30: 0 public commits, 9 heartbeat points</title></rect>
-<rect x="394" y="78" width="7" height="27" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 31: 0 public commits, 7 heartbeat points</title></rect>
-<rect x="406" y="81" width="7" height="24" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 32: 0 public commits, 6 heartbeat points</title></rect>
-<rect x="418" y="87" width="7" height="18" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 33: 0 public commits, 4 heartbeat points</title></rect>
-<rect x="430" y="75" width="7" height="30" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 34: 0 public commits, 8 heartbeat points</title></rect>
-<rect x="442" y="81" width="7" height="24" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 35: 0 public commits, 6 heartbeat points</title></rect>
-<rect x="454" y="75" width="7" height="30" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 36: 0 public commits, 8 heartbeat points</title></rect>
-<rect x="466" y="67" width="7" height="38" rx="2" fill="#A9EDCA" opacity=".72"><title>week signal 37: 0 public commits, 11 heartbeat points</title></rect>
-<rect x="478" y="81" width="7" height="24" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 38: 0 public commits, 6 heartbeat points</title></rect>
-<rect x="490" y="78" width="7" height="27" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 39: 0 public commits, 7 heartbeat points</title></rect>
-<rect x="502" y="89" width="7" height="16" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 40: 0 public commits, 3 heartbeat points</title></rect>
-<rect x="514" y="84" width="7" height="21" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 41: 0 public commits, 5 heartbeat points</title></rect>
-<rect x="526" y="81" width="7" height="24" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 42: 0 public commits, 6 heartbeat points</title></rect>
-<rect x="538" y="78" width="7" height="27" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 43: 0 public commits, 7 heartbeat points</title></rect>
-<rect x="550" y="67" width="7" height="38" rx="2" fill="#A9EDCA" opacity=".72"><title>week signal 44: 0 public commits, 11 heartbeat points</title></rect>
-<rect x="562" y="70" width="7" height="35" rx="2" fill="#5FE3A1" opacity=".95"><title>week signal 45: 4 public commits, 10 heartbeat points</title></rect>
-<rect x="574" y="64" width="7" height="41" rx="2" fill="#5FE3A1" opacity=".95"><title>week signal 46: 4 public commits, 12 heartbeat points</title></rect>
-<rect x="586" y="78" width="7" height="27" rx="2" fill="#5FE3A1" opacity=".95"><title>week signal 47: 3 public commits, 7 heartbeat points</title></rect>
-<rect x="598" y="92" width="7" height="13" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 48: 0 public commits, 2 heartbeat points</title></rect>
-<rect x="610" y="84" width="7" height="21" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 49: 0 public commits, 5 heartbeat points</title></rect>
-<rect x="622" y="75" width="7" height="30" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 50: 0 public commits, 8 heartbeat points</title></rect>
-<rect x="634" y="67" width="7" height="38" rx="2" fill="#A9EDCA" opacity=".72"><title>week signal 51: 0 public commits, 11 heartbeat points</title></rect>
-<rect x="646" y="75" width="7" height="30" rx="2" fill="#DDF6E8" opacity=".72"><title>week signal 52: 0 public commits, 8 heartbeat points</title></rect>
-<rect x="658" y="67" width="7" height="38" rx="2" fill="#A9EDCA" opacity=".72"><title>week signal 53: 0 public commits, 11 heartbeat points</title></rect>
-<text x="690" y="78" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="2.1" fill="#8A9991" >WEEKLY PULSE</text>
-<text x="690" y="99" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="2.1" fill="#A0AAA5" >COMMIT DAYS + REPO HEARTBEAT</text>
-<path d="M34 112H670" stroke="url(#softSignal)" stroke-width="1.2"/>
-<text x="34" y="126" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#9BA9A2" >JUL</text>
-<text x="94" y="126" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#9BA9A2" >AUG</text>
-<text x="154" y="126" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#9BA9A2" >SEP</text>
-<text x="214" y="126" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#9BA9A2" >OCT</text>
-<text x="274" y="126" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#9BA9A2" >NOV</text>
-<text x="334" y="126" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#9BA9A2" >DEC</text>
-<text x="406" y="126" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#9BA9A2" >JAN</text>
-<text x="466" y="126" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#9BA9A2" >FEB</text>
-<text x="526" y="126" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#9BA9A2" >MAR</text>
-<text x="586" y="126" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#9BA9A2" >APR</text>
-<text x="658" y="126" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#9BA9A2" >MAY</text>
-<text x="718" y="126" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#9BA9A2" >JUN</text>
-<text x="802" y="126" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#9BA9A2" >JUL</text>
-<text x="34" y="148" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#9BA9A2" >SUN</text>
-<text x="34" y="166" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#9BA9A2" >MON</text>
-<text x="34" y="184" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#9BA9A2" >WED</text>
-<text x="34" y="202" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#9BA9A2" >FRI</text>
-<rect x="78" y="136" width="11" height="11" rx="2" fill="#22A96D" stroke="#43B77D" stroke-width="1"><title>2025-06-29: 17 public commits / .github, ui-design, xagent-contracts</title></rect>
-<circle cx="83.5" cy="141.5" r="2" fill="#FFFFFF" opacity=".78"><title>2025-06-29: peak public commit burst</title></circle>
-<rect x="78" y="151" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-06-30: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="78" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-07-01: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="78" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-07-02: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="78" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-07-03: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="78" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-07-04: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="78" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-07-05: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="93" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-07-06: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="93" y="151" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-07-07: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="93" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-07-08: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="93" y="181" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-07-09: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="93" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-07-10: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="93" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-07-11: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="93" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-07-12: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="108" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-07-13: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="108" y="151" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-07-14: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="108" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-07-15: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="108" y="181" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-07-16: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="108" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-07-17: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="108" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-07-18: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="108" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-07-19: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="123" y="136" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-07-20: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="123" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-07-21: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="123" y="166" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-07-22: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="123" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-07-23: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="123" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-07-24: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="123" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-07-25: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="123" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-07-26: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="138" y="136" width="11" height="11" rx="2" fill="#6FE0A7" stroke="#7ED2A8" stroke-width="1"><title>2025-07-27: 6 public commits / xagent-contracts, xerness-intro</title></rect>
-<circle cx="143.5" cy="141.5" r="2" fill="#FFFFFF" opacity=".78"><title>2025-07-27: peak public commit burst</title></circle>
-<rect x="138" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-07-28: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="138" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-07-29: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="138" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-07-30: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="138" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-07-31: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="138" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-08-01: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="138" y="226" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-08-02: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="153" y="136" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-08-03: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="153" y="151" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-08-04: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="153" y="166" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-08-05: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="153" y="181" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-08-06: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="153" y="196" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-08-07: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="153" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-08-08: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="153" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-08-09: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="168" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-08-10: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="168" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-08-11: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="168" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-08-12: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="168" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-08-13: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="168" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-08-14: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="168" y="211" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-08-15: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="168" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-08-16: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="183" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-08-17: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="183" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-08-18: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="183" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-08-19: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="183" y="181" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-08-20: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="183" y="196" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-08-21: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="183" y="211" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-08-22: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="183" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-08-23: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="198" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-08-24: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="198" y="151" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-08-25: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="198" y="166" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-08-26: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="198" y="181" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-08-27: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="198" y="196" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-08-28: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="198" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-08-29: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="198" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-08-30: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="213" y="136" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-08-31: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="213" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-09-01: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="213" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-09-02: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="213" y="181" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-09-03: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="213" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-09-04: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="213" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-09-05: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="213" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-09-06: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="228" y="136" width="11" height="11" rx="2" fill="#ADEFCF" stroke="#A3DEC3" stroke-width="1"><title>2025-09-07: 2 public commits / xagent-contracts</title></rect>
-<rect x="228" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-09-08: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="228" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-09-09: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="228" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-09-10: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="228" y="196" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-09-11: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="228" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-09-12: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="228" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-09-13: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="243" y="136" width="11" height="11" rx="2" fill="#ADEFCF" stroke="#A3DEC3" stroke-width="1"><title>2025-09-14: 2 public commits / xerness-intro</title></rect>
-<rect x="243" y="151" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-09-15: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="243" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-09-16: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="243" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-09-17: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="243" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-09-18: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="243" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-09-19: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="243" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-09-20: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="258" y="136" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-09-21: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="258" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-09-22: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="258" y="166" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-09-23: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="258" y="181" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-09-24: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="258" y="196" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-09-25: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="258" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-09-26: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="258" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-09-27: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="273" y="136" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-09-28: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="273" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-09-29: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="273" y="166" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-09-30: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="273" y="181" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-10-01: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="273" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-10-02: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="273" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-10-03: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="273" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-10-04: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="288" y="136" width="11" height="11" rx="2" fill="#6FE0A7" stroke="#7ED2A8" stroke-width="1"><title>2025-10-05: 6 public commits / ui-design, xagent-contracts</title></rect>
-<circle cx="293.5" cy="141.5" r="2" fill="#FFFFFF" opacity=".78"><title>2025-10-05: peak public commit burst</title></circle>
-<rect x="288" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-10-06: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="288" y="166" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-10-07: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="288" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-10-08: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="288" y="196" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-10-09: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="288" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-10-10: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="288" y="226" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-10-11: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="303" y="136" width="11" height="11" rx="2" fill="#22A96D" stroke="#43B77D" stroke-width="1"><title>2025-10-12: 8 public commits / .github, ui-design</title></rect>
-<circle cx="308.5" cy="141.5" r="2" fill="#FFFFFF" opacity=".78"><title>2025-10-12: peak public commit burst</title></circle>
-<rect x="303" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-10-13: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="303" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-10-14: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="303" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-10-15: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="303" y="196" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-10-16: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="303" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-10-17: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="303" y="226" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-10-18: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="318" y="136" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-10-19: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="318" y="151" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-10-20: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="318" y="166" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-10-21: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="318" y="181" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-10-22: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="318" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-10-23: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="318" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-10-24: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="318" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-10-25: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="333" y="136" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-10-26: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="333" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-10-27: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="333" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-10-28: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="333" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-10-29: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="333" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-10-30: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="333" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-10-31: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="333" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-11-01: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="348" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-11-02: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="348" y="151" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-11-03: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="348" y="166" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-11-04: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="348" y="181" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-11-05: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="348" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-11-06: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="348" y="211" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-11-07: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="348" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-11-08: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="363" y="136" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-11-09: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="363" y="151" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-11-10: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="363" y="166" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-11-11: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="363" y="181" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-11-12: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="363" y="196" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-11-13: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="363" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-11-14: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="363" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-11-15: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="378" y="136" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-11-16: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="378" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-11-17: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="378" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-11-18: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="378" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-11-19: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="378" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-11-20: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="378" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-11-21: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="378" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-11-22: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="393" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-11-23: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="393" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-11-24: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="393" y="166" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-11-25: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="393" y="181" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-11-26: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="393" y="196" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-11-27: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="393" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-11-28: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="393" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-11-29: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="408" y="136" width="11" height="11" rx="2" fill="#22A96D" stroke="#43B77D" stroke-width="1"><title>2025-11-30: 8 public commits / xagent-contracts, xerness-intro</title></rect>
-<circle cx="413.5" cy="141.5" r="2" fill="#FFFFFF" opacity=".78"><title>2025-11-30: peak public commit burst</title></circle>
-<rect x="408" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-12-01: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="408" y="166" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-12-02: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="408" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-12-03: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="408" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-12-04: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="408" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-12-05: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="408" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-12-06: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="423" y="136" width="11" height="11" rx="2" fill="#ADEFCF" stroke="#A3DEC3" stroke-width="1"><title>2025-12-07: 3 public commits / .github</title></rect>
-<rect x="423" y="151" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-12-08: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="423" y="166" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-12-09: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="423" y="181" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-12-10: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="423" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-12-11: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="423" y="211" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-12-12: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="423" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-12-13: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="438" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-12-14: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="438" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-12-15: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="438" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-12-16: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="438" y="181" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-12-17: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="438" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-12-18: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="438" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-12-19: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="438" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-12-20: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="453" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-12-21: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="453" y="151" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2025-12-22: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="453" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-12-23: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="453" y="181" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-12-24: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="453" y="196" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-12-25: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="453" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-12-26: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="453" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2025-12-27: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="468" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-12-28: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="468" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-12-29: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="468" y="166" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-12-30: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="468" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2025-12-31: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="468" y="196" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-01-01: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="468" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-02: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="468" y="226" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-01-03: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="483" y="136" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-01-04: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="483" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-05: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="483" y="166" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-01-06: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="483" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-07: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="483" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-08: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="483" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-01-09: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="483" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-01-10: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="498" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-11: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="498" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-12: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="498" y="166" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-13: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="498" y="181" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-01-14: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="498" y="196" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-01-15: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="498" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-16: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="498" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-17: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="513" y="136" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-01-18: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="513" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-19: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="513" y="166" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-20: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="513" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-21: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="513" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-22: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="513" y="211" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-01-23: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="513" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-24: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="528" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-25: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="528" y="151" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-01-26: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="528" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-01-27: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="528" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-28: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="528" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-29: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="528" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-30: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="528" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-01-31: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="543" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-02-01: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="543" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-02-02: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="543" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-02-03: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="543" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-02-04: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="543" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-02-05: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="543" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-02-06: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="543" y="226" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-02-07: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="558" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-02-08: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="558" y="151" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-02-09: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="558" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-02-10: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="558" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-02-11: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="558" y="196" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-02-12: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="558" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-02-13: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="558" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-02-14: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="573" y="136" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-02-15: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="573" y="151" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-02-16: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="573" y="166" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-02-17: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="573" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-02-18: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="573" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-02-19: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="573" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-02-20: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="573" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-02-21: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="588" y="136" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-02-22: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="588" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-02-23: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="588" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-02-24: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="588" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-02-25: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="588" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-02-26: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="588" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-02-27: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="588" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-02-28: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="603" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-03-01: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="603" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-03-02: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="603" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-03-03: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="603" y="181" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-03-04: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="603" y="196" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-03-05: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="603" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-03-06: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="603" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-03-07: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="618" y="136" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-03-08: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="618" y="151" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-03-09: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="618" y="166" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-03-10: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="618" y="181" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-03-11: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="618" y="196" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-03-12: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="618" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-03-13: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="618" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-03-14: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="633" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-03-15: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="633" y="151" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-03-16: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="633" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-03-17: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="633" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-03-18: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="633" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-03-19: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="633" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-03-20: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="633" y="226" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-03-21: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="648" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-03-22: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="648" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-03-23: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="648" y="166" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-03-24: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="648" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-03-25: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="648" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-03-26: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="648" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-03-27: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="648" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-03-28: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="663" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-03-29: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="663" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-03-30: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="663" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-03-31: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="663" y="181" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-04-01: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="663" y="196" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-04-02: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="663" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-04-03: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="663" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-04-04: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="678" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-04-05: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="678" y="151" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-04-06: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="678" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-04-07: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="678" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-04-08: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="678" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-04-09: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="678" y="211" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-04-10: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="678" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-04-11: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="693" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-04-12: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="693" y="151" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-04-13: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="693" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-04-14: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="693" y="181" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-04-15: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="693" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-04-16: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="693" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-04-17: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="693" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-04-18: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="708" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-04-19: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="708" y="151" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-04-20: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="708" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-04-21: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="708" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-04-22: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="708" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-04-23: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="708" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-04-24: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="708" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-04-25: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="723" y="136" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-04-26: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="723" y="151" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-04-27: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="723" y="166" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-04-28: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="723" y="181" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-04-29: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="723" y="196" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-04-30: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="723" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-05-01: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="723" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-05-02: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="738" y="136" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-05-03: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="738" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-05-04: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="738" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-05-05: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="738" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-05-06: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="738" y="196" width="11" height="11" rx="2" fill="#6FE0A7" stroke="#7ED2A8" stroke-width="1"><title>2026-05-07: 4 public commits / xagent-contracts, xerness-intro</title></rect>
-<rect x="738" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-05-08: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="738" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-05-09: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="753" y="136" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-05-10: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="753" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-05-11: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="753" y="166" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-05-12: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="753" y="181" width="11" height="11" rx="2" fill="#6FE0A7" stroke="#7ED2A8" stroke-width="1"><title>2026-05-13: 4 public commits / xerness-intro</title></rect>
-<rect x="753" y="196" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-05-14: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="753" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-05-15: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="753" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-05-16: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="768" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-05-17: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="768" y="151" width="11" height="11" rx="2" fill="#ADEFCF" stroke="#A3DEC3" stroke-width="1"><title>2026-05-18: 3 public commits / xagent-contracts</title></rect>
-<rect x="768" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-05-19: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="768" y="181" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-05-20: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="768" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-05-21: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="768" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-05-22: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="768" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-05-23: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="783" y="136" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-05-24: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="783" y="151" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-05-25: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="783" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-05-26: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="783" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-05-27: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="783" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-05-28: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="783" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-05-29: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="783" y="226" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-05-30: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="798" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-05-31: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="798" y="151" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-06-01: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="798" y="166" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-06-02: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="798" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-06-03: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="798" y="196" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-06-04: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="798" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-06-05: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="798" y="226" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-06-06: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="813" y="136" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-06-07: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="813" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-06-08: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="813" y="166" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-06-09: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="813" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-06-10: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="813" y="196" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-06-11: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="813" y="211" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-06-12: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="813" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-06-13: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="828" y="136" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-06-14: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="828" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-06-15: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="828" y="166" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-06-16: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="828" y="181" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-06-17: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="828" y="196" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-06-18: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="828" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-06-19: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="828" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-06-20: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="843" y="136" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-06-21: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="843" y="151" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-06-22: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="843" y="166" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0" stroke-width="1"><title>2026-06-23: 0 public commits / quiet repository heartbeat signal 0</title></rect>
-<rect x="843" y="181" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-06-24: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="843" y="196" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-06-25: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="843" y="211" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-06-26: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="843" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-06-27: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="858" y="136" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-06-28: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="858" y="151" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-06-29: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="858" y="166" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-06-30: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="858" y="181" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-07-01: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="858" y="196" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8" stroke-width="1"><title>2026-07-02: 0 public commits / quiet repository heartbeat signal 2</title></rect>
-<rect x="858" y="211" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-07-03: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<rect x="858" y="226" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4" stroke-width="1"><title>2026-07-04: 0 public commits / quiet repository heartbeat signal 1</title></rect>
-<path d="M869 132V245" stroke="#5FE3A1" stroke-width="1" stroke-opacity=".65" stroke-dasharray="2 4"/>
-<text x="900" y="147" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#7E8D86" >LATEST</text>
-<text x="900" y="164" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#9AA7A1" >JUL 08</text>
-<path d="M34 258H1022" stroke="#667A70" stroke-opacity=".12"/>
-<text x="34" y="274" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="2.1" fill="#7E8D86" >24H SIGNAL LANGUAGE</text>
-<rect x="276" y="261.6" width="14" height="8.4" rx="3" fill="#DDF6E8" opacity=".9"><title>00:00 UTC: hour signal 2/10</title></rect>
-<rect x="296" y="259.4" width="14" height="10.6" rx="3" fill="#DDF6E8" opacity=".9"><title>01:00 UTC: hour signal 3/10</title></rect>
-<rect x="316" y="261.6" width="14" height="8.4" rx="3" fill="#DDF6E8" opacity=".9"><title>02:00 UTC: hour signal 2/10</title></rect>
-<rect x="336" y="263.8" width="14" height="6.2" rx="3" fill="#DDF6E8" opacity=".9"><title>03:00 UTC: hour signal 1/10</title></rect>
-<rect x="356" y="263.8" width="14" height="6.2" rx="3" fill="#DDF6E8" opacity=".9"><title>04:00 UTC: hour signal 1/10</title></rect>
-<rect x="376" y="261.6" width="14" height="8.4" rx="3" fill="#DDF6E8" opacity=".9"><title>05:00 UTC: hour signal 2/10</title></rect>
-<rect x="396" y="259.4" width="14" height="10.6" rx="3" fill="#DDF6E8" opacity=".9"><title>06:00 UTC: hour signal 3/10</title></rect>
-<rect x="416" y="255.0" width="14" height="15.0" rx="3" fill="#ADEFCF" opacity=".9"><title>07:00 UTC: hour signal 5/10</title></rect>
-<rect x="436" y="252.8" width="14" height="17.2" rx="3" fill="#6FE0A7" opacity=".9"><title>08:00 UTC: hour signal 6/10</title></rect>
-<rect x="456" y="250.6" width="14" height="19.4" rx="3" fill="#6FE0A7" opacity=".9"><title>09:00 UTC: hour signal 7/10</title></rect>
-<rect x="476" y="248.4" width="14" height="21.6" rx="3" fill="#22A96D" opacity=".9"><title>10:00 UTC: hour signal 8/10</title></rect>
-<rect x="496" y="250.6" width="14" height="19.4" rx="3" fill="#6FE0A7" opacity=".9"><title>11:00 UTC: hour signal 7/10</title></rect>
-<rect x="516" y="252.8" width="14" height="17.2" rx="3" fill="#6FE0A7" opacity=".9"><title>12:00 UTC: hour signal 6/10</title></rect>
-<rect x="536" y="248.4" width="14" height="21.6" rx="3" fill="#22A96D" opacity=".9"><title>13:00 UTC: hour signal 8/10</title></rect>
-<rect x="556" y="246.2" width="14" height="23.8" rx="3" fill="#22A96D" opacity=".9"><title>14:00 UTC: hour signal 9/10</title></rect>
-<rect x="576" y="244.0" width="14" height="26.0" rx="3" fill="#22A96D" opacity=".9"><title>15:00 UTC: hour signal 10/10</title></rect>
-<rect x="596" y="248.4" width="14" height="21.6" rx="3" fill="#22A96D" opacity=".9"><title>16:00 UTC: hour signal 8/10</title></rect>
-<rect x="616" y="250.6" width="14" height="19.4" rx="3" fill="#6FE0A7" opacity=".9"><title>17:00 UTC: hour signal 7/10</title></rect>
-<rect x="636" y="252.8" width="14" height="17.2" rx="3" fill="#6FE0A7" opacity=".9"><title>18:00 UTC: hour signal 6/10</title></rect>
-<rect x="656" y="255.0" width="14" height="15.0" rx="3" fill="#ADEFCF" opacity=".9"><title>19:00 UTC: hour signal 5/10</title></rect>
-<rect x="676" y="257.2" width="14" height="12.8" rx="3" fill="#ADEFCF" opacity=".9"><title>20:00 UTC: hour signal 4/10</title></rect>
-<rect x="696" y="255.0" width="14" height="15.0" rx="3" fill="#ADEFCF" opacity=".9"><title>21:00 UTC: hour signal 5/10</title></rect>
-<rect x="716" y="257.2" width="14" height="12.8" rx="3" fill="#ADEFCF" opacity=".9"><title>22:00 UTC: hour signal 4/10</title></rect>
-<rect x="736" y="259.4" width="14" height="10.6" rx="3" fill="#DDF6E8" opacity=".9"><title>23:00 UTC: hour signal 3/10</title></rect>
-<text x="277" y="288" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="8" letter-spacing="1.2" fill="#A0AAA5" >00</text>
-<text x="397" y="288" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="8" letter-spacing="1.2" fill="#A0AAA5" >06</text>
-<text x="517" y="288" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="8" letter-spacing="1.2" fill="#A0AAA5" >12</text>
-<text x="637" y="288" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="8" letter-spacing="1.2" fill="#A0AAA5" >18</text>
-<text x="737" y="288" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="8" letter-spacing="1.2" fill="#A0AAA5" >23</text>
-<text x="804" y="274" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#A0AAA5" >LOW</text>
-<rect x="844" y="264" width="11" height="11" rx="2" fill="#FBFCFB" stroke="#EEF3F0"/>
-<rect x="861" y="264" width="11" height="11" rx="2" fill="#EFFAF4" stroke="#DCECE4"/>
-<rect x="878" y="264" width="11" height="11" rx="2" fill="#DDF6E8" stroke="#C8E8D8"/>
-<rect x="895" y="264" width="11" height="11" rx="2" fill="#ADEFCF" stroke="#A3DEC3"/>
-<rect x="912" y="264" width="11" height="11" rx="2" fill="#6FE0A7" stroke="#7ED2A8"/>
-<rect x="929" y="264" width="11" height="11" rx="2" fill="#22A96D" stroke="#43B77D"/>
-<text x="956" y="274" font-family="SFMono-Regular, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#A0AAA5" >HIGH</text>
+<rect width="1056" height="250" rx="10" fill="#0d1117"/>
+<rect x="1" y="1" width="1054" height="248" rx="10" fill="none" stroke="#30363d"/>
+<text x="34" y="46" class="text"><tspan font-weight="700">1,940</tspan><tspan fill="#8b949e"> engineering signals across the organization</tspan></text>
+<text x="922" y="46" class="muted" text-anchor="end">Jul 2025 - present</text>
+<rect x="878" y="34" width="12" height="12" rx="3" fill="#161b22"/>
+<rect x="900" y="34" width="12" height="12" rx="3" fill="#0e4429"/>
+<rect x="922" y="34" width="12" height="12" rx="3" fill="#006d32"/>
+<rect x="944" y="34" width="12" height="12" rx="3" fill="#26a641"/>
+<rect x="966" y="34" width="12" height="12" rx="3" fill="#39d353"/>
+<text x="1002" y="45" class="muted">high</text>
+<text x="838" y="45" class="muted">low</text>
+<rect x="54" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 1, day 1: activity level 4</title></rect>
+<rect x="54" y="94" width="12" height="12" rx="3" fill="#161b22"><title>week 1, day 2: activity level 0</title></rect>
+<rect x="54" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 1, day 3: activity level 2</title></rect>
+<rect x="54" y="126" width="12" height="12" rx="3" fill="#0e4429"><title>week 1, day 4: activity level 1</title></rect>
+<rect x="54" y="142" width="12" height="12" rx="3" fill="#0e4429"><title>week 1, day 5: activity level 1</title></rect>
+<rect x="54" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 1, day 6: activity level 2</title></rect>
+<rect x="54" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 1, day 7: activity level 3</title></rect>
+<rect x="70" y="78" width="12" height="12" rx="3" fill="#006d32"><title>week 2, day 1: activity level 2</title></rect>
+<rect x="70" y="94" width="12" height="12" rx="3" fill="#006d32"><title>week 2, day 2: activity level 2</title></rect>
+<rect x="70" y="110" width="12" height="12" rx="3" fill="#161b22"><title>week 2, day 3: activity level 0</title></rect>
+<rect x="70" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 2, day 4: activity level 2</title></rect>
+<rect x="70" y="142" width="12" height="12" rx="3" fill="#161b22"><title>week 2, day 5: activity level 0</title></rect>
+<rect x="70" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 2, day 6: activity level 2</title></rect>
+<rect x="70" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 2, day 7: activity level 3</title></rect>
+<rect x="86" y="78" width="12" height="12" rx="3" fill="#006d32"><title>week 3, day 1: activity level 2</title></rect>
+<rect x="86" y="94" width="12" height="12" rx="3" fill="#26a641"><title>week 3, day 2: activity level 3</title></rect>
+<rect x="86" y="110" width="12" height="12" rx="3" fill="#161b22"><title>week 3, day 3: activity level 0</title></rect>
+<rect x="86" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 3, day 4: activity level 2</title></rect>
+<rect x="86" y="142" width="12" height="12" rx="3" fill="#0e4429"><title>week 3, day 5: activity level 1</title></rect>
+<rect x="86" y="158" width="12" height="12" rx="3" fill="#161b22"><title>week 3, day 6: activity level 0</title></rect>
+<rect x="86" y="174" width="12" height="12" rx="3" fill="#161b22"><title>week 3, day 7: activity level 0</title></rect>
+<rect x="102" y="78" width="12" height="12" rx="3" fill="#26a641"><title>week 4, day 1: activity level 3</title></rect>
+<rect x="102" y="94" width="12" height="12" rx="3" fill="#006d32"><title>week 4, day 2: activity level 2</title></rect>
+<rect x="102" y="110" width="12" height="12" rx="3" fill="#161b22"><title>week 4, day 3: activity level 0</title></rect>
+<rect x="102" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 4, day 4: activity level 2</title></rect>
+<rect x="102" y="142" width="12" height="12" rx="3" fill="#006d32"><title>week 4, day 5: activity level 2</title></rect>
+<rect x="102" y="158" width="12" height="12" rx="3" fill="#161b22"><title>week 4, day 6: activity level 0</title></rect>
+<rect x="102" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 4, day 7: activity level 3</title></rect>
+<rect x="118" y="78" width="12" height="12" rx="3" fill="#26a641"><title>week 5, day 1: activity level 3</title></rect>
+<rect x="118" y="94" width="12" height="12" rx="3" fill="#0e4429"><title>week 5, day 2: activity level 1</title></rect>
+<rect x="118" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 5, day 3: activity level 2</title></rect>
+<rect x="118" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 5, day 4: activity level 2</title></rect>
+<rect x="118" y="142" width="12" height="12" rx="3" fill="#161b22"><title>week 5, day 5: activity level 0</title></rect>
+<rect x="118" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 5, day 6: activity level 4</title></rect>
+<rect x="118" y="174" width="12" height="12" rx="3" fill="#161b22"><title>week 5, day 7: activity level 0</title></rect>
+<rect x="134" y="78" width="12" height="12" rx="3" fill="#161b22"><title>week 6, day 1: activity level 0</title></rect>
+<rect x="134" y="94" width="12" height="12" rx="3" fill="#161b22"><title>week 6, day 2: activity level 0</title></rect>
+<rect x="134" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 6, day 3: activity level 4</title></rect>
+<rect x="134" y="126" width="12" height="12" rx="3" fill="#0e4429"><title>week 6, day 4: activity level 1</title></rect>
+<rect x="134" y="142" width="12" height="12" rx="3" fill="#161b22"><title>week 6, day 5: activity level 0</title></rect>
+<rect x="134" y="158" width="12" height="12" rx="3" fill="#161b22"><title>week 6, day 6: activity level 0</title></rect>
+<rect x="134" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 6, day 7: activity level 3</title></rect>
+<rect x="150" y="78" width="12" height="12" rx="3" fill="#006d32"><title>week 7, day 1: activity level 2</title></rect>
+<rect x="150" y="94" width="12" height="12" rx="3" fill="#161b22"><title>week 7, day 2: activity level 0</title></rect>
+<rect x="150" y="110" width="12" height="12" rx="3" fill="#0e4429"><title>week 7, day 3: activity level 1</title></rect>
+<rect x="150" y="126" width="12" height="12" rx="3" fill="#0e4429"><title>week 7, day 4: activity level 1</title></rect>
+<rect x="150" y="142" width="12" height="12" rx="3" fill="#161b22"><title>week 7, day 5: activity level 0</title></rect>
+<rect x="150" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 7, day 6: activity level 3</title></rect>
+<rect x="150" y="174" width="12" height="12" rx="3" fill="#006d32"><title>week 7, day 7: activity level 2</title></rect>
+<rect x="166" y="78" width="12" height="12" rx="3" fill="#161b22"><title>week 8, day 1: activity level 0</title></rect>
+<rect x="166" y="94" width="12" height="12" rx="3" fill="#006d32"><title>week 8, day 2: activity level 2</title></rect>
+<rect x="166" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 8, day 3: activity level 2</title></rect>
+<rect x="166" y="126" width="12" height="12" rx="3" fill="#161b22"><title>week 8, day 4: activity level 0</title></rect>
+<rect x="166" y="142" width="12" height="12" rx="3" fill="#26a641"><title>week 8, day 5: activity level 3</title></rect>
+<rect x="166" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 8, day 6: activity level 2</title></rect>
+<rect x="166" y="174" width="12" height="12" rx="3" fill="#0e4429"><title>week 8, day 7: activity level 1</title></rect>
+<rect x="182" y="78" width="12" height="12" rx="3" fill="#0e4429"><title>week 9, day 1: activity level 1</title></rect>
+<rect x="182" y="94" width="12" height="12" rx="3" fill="#161b22"><title>week 9, day 2: activity level 0</title></rect>
+<rect x="182" y="110" width="12" height="12" rx="3" fill="#26a641"><title>week 9, day 3: activity level 3</title></rect>
+<rect x="182" y="126" width="12" height="12" rx="3" fill="#26a641"><title>week 9, day 4: activity level 3</title></rect>
+<rect x="182" y="142" width="12" height="12" rx="3" fill="#0e4429"><title>week 9, day 5: activity level 1</title></rect>
+<rect x="182" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 9, day 6: activity level 2</title></rect>
+<rect x="182" y="174" width="12" height="12" rx="3" fill="#006d32"><title>week 9, day 7: activity level 2</title></rect>
+<rect x="198" y="78" width="12" height="12" rx="3" fill="#161b22"><title>week 10, day 1: activity level 0</title></rect>
+<rect x="198" y="94" width="12" height="12" rx="3" fill="#161b22"><title>week 10, day 2: activity level 0</title></rect>
+<rect x="198" y="110" width="12" height="12" rx="3" fill="#26a641"><title>week 10, day 3: activity level 3</title></rect>
+<rect x="198" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 10, day 4: activity level 2</title></rect>
+<rect x="198" y="142" width="12" height="12" rx="3" fill="#161b22"><title>week 10, day 5: activity level 0</title></rect>
+<rect x="198" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 10, day 6: activity level 2</title></rect>
+<rect x="198" y="174" width="12" height="12" rx="3" fill="#0e4429"><title>week 10, day 7: activity level 1</title></rect>
+<rect x="214" y="78" width="12" height="12" rx="3" fill="#0e4429"><title>week 11, day 1: activity level 1</title></rect>
+<rect x="214" y="94" width="12" height="12" rx="3" fill="#26a641"><title>week 11, day 2: activity level 3</title></rect>
+<rect x="214" y="110" width="12" height="12" rx="3" fill="#0e4429"><title>week 11, day 3: activity level 1</title></rect>
+<rect x="214" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 11, day 4: activity level 2</title></rect>
+<rect x="214" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 11, day 5: activity level 4</title></rect>
+<rect x="214" y="158" width="12" height="12" rx="3" fill="#161b22"><title>week 11, day 6: activity level 0</title></rect>
+<rect x="214" y="174" width="12" height="12" rx="3" fill="#161b22"><title>week 11, day 7: activity level 0</title></rect>
+<rect x="230" y="78" width="12" height="12" rx="3" fill="#26a641"><title>week 12, day 1: activity level 3</title></rect>
+<rect x="230" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 12, day 2: activity level 4</title></rect>
+<rect x="230" y="110" width="12" height="12" rx="3" fill="#26a641"><title>week 12, day 3: activity level 3</title></rect>
+<rect x="230" y="126" width="12" height="12" rx="3" fill="#0e4429"><title>week 12, day 4: activity level 1</title></rect>
+<rect x="230" y="142" width="12" height="12" rx="3" fill="#006d32"><title>week 12, day 5: activity level 2</title></rect>
+<rect x="230" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 12, day 6: activity level 2</title></rect>
+<rect x="230" y="174" width="12" height="12" rx="3" fill="#006d32"><title>week 12, day 7: activity level 2</title></rect>
+<rect x="246" y="78" width="12" height="12" rx="3" fill="#0e4429"><title>week 13, day 1: activity level 1</title></rect>
+<rect x="246" y="94" width="12" height="12" rx="3" fill="#26a641"><title>week 13, day 2: activity level 3</title></rect>
+<rect x="246" y="110" width="12" height="12" rx="3" fill="#0e4429"><title>week 13, day 3: activity level 1</title></rect>
+<rect x="246" y="126" width="12" height="12" rx="3" fill="#0e4429"><title>week 13, day 4: activity level 1</title></rect>
+<rect x="246" y="142" width="12" height="12" rx="3" fill="#161b22"><title>week 13, day 5: activity level 0</title></rect>
+<rect x="246" y="158" width="12" height="12" rx="3" fill="#161b22"><title>week 13, day 6: activity level 0</title></rect>
+<rect x="246" y="174" width="12" height="12" rx="3" fill="#0e4429"><title>week 13, day 7: activity level 1</title></rect>
+<rect x="262" y="78" width="12" height="12" rx="3" fill="#0e4429"><title>week 14, day 1: activity level 1</title></rect>
+<rect x="262" y="94" width="12" height="12" rx="3" fill="#0e4429"><title>week 14, day 2: activity level 1</title></rect>
+<rect x="262" y="110" width="12" height="12" rx="3" fill="#161b22"><title>week 14, day 3: activity level 0</title></rect>
+<rect x="262" y="126" width="12" height="12" rx="3" fill="#0e4429"><title>week 14, day 4: activity level 1</title></rect>
+<rect x="262" y="142" width="12" height="12" rx="3" fill="#0e4429"><title>week 14, day 5: activity level 1</title></rect>
+<rect x="262" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 14, day 6: activity level 2</title></rect>
+<rect x="262" y="174" width="12" height="12" rx="3" fill="#161b22"><title>week 14, day 7: activity level 0</title></rect>
+<rect x="278" y="78" width="12" height="12" rx="3" fill="#006d32"><title>week 15, day 1: activity level 2</title></rect>
+<rect x="278" y="94" width="12" height="12" rx="3" fill="#26a641"><title>week 15, day 2: activity level 3</title></rect>
+<rect x="278" y="110" width="12" height="12" rx="3" fill="#0e4429"><title>week 15, day 3: activity level 1</title></rect>
+<rect x="278" y="126" width="12" height="12" rx="3" fill="#26a641"><title>week 15, day 4: activity level 3</title></rect>
+<rect x="278" y="142" width="12" height="12" rx="3" fill="#006d32"><title>week 15, day 5: activity level 2</title></rect>
+<rect x="278" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 15, day 6: activity level 3</title></rect>
+<rect x="278" y="174" width="12" height="12" rx="3" fill="#0e4429"><title>week 15, day 7: activity level 1</title></rect>
+<rect x="294" y="78" width="12" height="12" rx="3" fill="#26a641"><title>week 16, day 1: activity level 3</title></rect>
+<rect x="294" y="94" width="12" height="12" rx="3" fill="#0e4429"><title>week 16, day 2: activity level 1</title></rect>
+<rect x="294" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 16, day 3: activity level 2</title></rect>
+<rect x="294" y="126" width="12" height="12" rx="3" fill="#26a641"><title>week 16, day 4: activity level 3</title></rect>
+<rect x="294" y="142" width="12" height="12" rx="3" fill="#26a641"><title>week 16, day 5: activity level 3</title></rect>
+<rect x="294" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 16, day 6: activity level 2</title></rect>
+<rect x="294" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 16, day 7: activity level 4</title></rect>
+<rect x="310" y="78" width="12" height="12" rx="3" fill="#0e4429"><title>week 17, day 1: activity level 1</title></rect>
+<rect x="310" y="94" width="12" height="12" rx="3" fill="#006d32"><title>week 17, day 2: activity level 2</title></rect>
+<rect x="310" y="110" width="12" height="12" rx="3" fill="#26a641"><title>week 17, day 3: activity level 3</title></rect>
+<rect x="310" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 17, day 4: activity level 4</title></rect>
+<rect x="310" y="142" width="12" height="12" rx="3" fill="#26a641"><title>week 17, day 5: activity level 3</title></rect>
+<rect x="310" y="158" width="12" height="12" rx="3" fill="#0e4429"><title>week 17, day 6: activity level 1</title></rect>
+<rect x="310" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 17, day 7: activity level 3</title></rect>
+<rect x="326" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 18, day 1: activity level 4</title></rect>
+<rect x="326" y="94" width="12" height="12" rx="3" fill="#006d32"><title>week 18, day 2: activity level 2</title></rect>
+<rect x="326" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 18, day 3: activity level 2</title></rect>
+<rect x="326" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 18, day 4: activity level 4</title></rect>
+<rect x="326" y="142" width="12" height="12" rx="3" fill="#26a641"><title>week 18, day 5: activity level 3</title></rect>
+<rect x="326" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 18, day 6: activity level 3</title></rect>
+<rect x="326" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 18, day 7: activity level 3</title></rect>
+<rect x="342" y="78" width="12" height="12" rx="3" fill="#0e4429"><title>week 19, day 1: activity level 1</title></rect>
+<rect x="342" y="94" width="12" height="12" rx="3" fill="#0e4429"><title>week 19, day 2: activity level 1</title></rect>
+<rect x="342" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 19, day 3: activity level 2</title></rect>
+<rect x="342" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 19, day 4: activity level 4</title></rect>
+<rect x="342" y="142" width="12" height="12" rx="3" fill="#26a641"><title>week 19, day 5: activity level 3</title></rect>
+<rect x="342" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 19, day 6: activity level 2</title></rect>
+<rect x="342" y="174" width="12" height="12" rx="3" fill="#0e4429"><title>week 19, day 7: activity level 1</title></rect>
+<rect x="358" y="78" width="12" height="12" rx="3" fill="#26a641"><title>week 20, day 1: activity level 3</title></rect>
+<rect x="358" y="94" width="12" height="12" rx="3" fill="#006d32"><title>week 20, day 2: activity level 2</title></rect>
+<rect x="358" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 20, day 3: activity level 2</title></rect>
+<rect x="358" y="126" width="12" height="12" rx="3" fill="#26a641"><title>week 20, day 4: activity level 3</title></rect>
+<rect x="358" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 20, day 5: activity level 4</title></rect>
+<rect x="358" y="158" width="12" height="12" rx="3" fill="#0e4429"><title>week 20, day 6: activity level 1</title></rect>
+<rect x="358" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 20, day 7: activity level 3</title></rect>
+<rect x="374" y="78" width="12" height="12" rx="3" fill="#26a641"><title>week 21, day 1: activity level 3</title></rect>
+<rect x="374" y="94" width="12" height="12" rx="3" fill="#006d32"><title>week 21, day 2: activity level 2</title></rect>
+<rect x="374" y="110" width="12" height="12" rx="3" fill="#26a641"><title>week 21, day 3: activity level 3</title></rect>
+<rect x="374" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 21, day 4: activity level 4</title></rect>
+<rect x="374" y="142" width="12" height="12" rx="3" fill="#0e4429"><title>week 21, day 5: activity level 1</title></rect>
+<rect x="374" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 21, day 6: activity level 3</title></rect>
+<rect x="374" y="174" width="12" height="12" rx="3" fill="#0e4429"><title>week 21, day 7: activity level 1</title></rect>
+<rect x="390" y="78" width="12" height="12" rx="3" fill="#26a641"><title>week 22, day 1: activity level 3</title></rect>
+<rect x="390" y="94" width="12" height="12" rx="3" fill="#26a641"><title>week 22, day 2: activity level 3</title></rect>
+<rect x="390" y="110" width="12" height="12" rx="3" fill="#26a641"><title>week 22, day 3: activity level 3</title></rect>
+<rect x="390" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 22, day 4: activity level 4</title></rect>
+<rect x="390" y="142" width="12" height="12" rx="3" fill="#0e4429"><title>week 22, day 5: activity level 1</title></rect>
+<rect x="390" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 22, day 6: activity level 4</title></rect>
+<rect x="390" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 22, day 7: activity level 3</title></rect>
+<rect x="406" y="78" width="12" height="12" rx="3" fill="#26a641"><title>week 23, day 1: activity level 3</title></rect>
+<rect x="406" y="94" width="12" height="12" rx="3" fill="#0e4429"><title>week 23, day 2: activity level 1</title></rect>
+<rect x="406" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 23, day 3: activity level 4</title></rect>
+<rect x="406" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 23, day 4: activity level 2</title></rect>
+<rect x="406" y="142" width="12" height="12" rx="3" fill="#26a641"><title>week 23, day 5: activity level 3</title></rect>
+<rect x="406" y="158" width="12" height="12" rx="3" fill="#0e4429"><title>week 23, day 6: activity level 1</title></rect>
+<rect x="406" y="174" width="12" height="12" rx="3" fill="#006d32"><title>week 23, day 7: activity level 2</title></rect>
+<rect x="422" y="78" width="12" height="12" rx="3" fill="#006d32"><title>week 24, day 1: activity level 2</title></rect>
+<rect x="422" y="94" width="12" height="12" rx="3" fill="#26a641"><title>week 24, day 2: activity level 3</title></rect>
+<rect x="422" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 24, day 3: activity level 2</title></rect>
+<rect x="422" y="126" width="12" height="12" rx="3" fill="#26a641"><title>week 24, day 4: activity level 3</title></rect>
+<rect x="422" y="142" width="12" height="12" rx="3" fill="#26a641"><title>week 24, day 5: activity level 3</title></rect>
+<rect x="422" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 24, day 6: activity level 3</title></rect>
+<rect x="422" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 24, day 7: activity level 3</title></rect>
+<rect x="438" y="78" width="12" height="12" rx="3" fill="#006d32"><title>week 25, day 1: activity level 2</title></rect>
+<rect x="438" y="94" width="12" height="12" rx="3" fill="#006d32"><title>week 25, day 2: activity level 2</title></rect>
+<rect x="438" y="110" width="12" height="12" rx="3" fill="#26a641"><title>week 25, day 3: activity level 3</title></rect>
+<rect x="438" y="126" width="12" height="12" rx="3" fill="#0e4429"><title>week 25, day 4: activity level 1</title></rect>
+<rect x="438" y="142" width="12" height="12" rx="3" fill="#0e4429"><title>week 25, day 5: activity level 1</title></rect>
+<rect x="438" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 25, day 6: activity level 2</title></rect>
+<rect x="438" y="174" width="12" height="12" rx="3" fill="#006d32"><title>week 25, day 7: activity level 2</title></rect>
+<rect x="454" y="78" width="12" height="12" rx="3" fill="#26a641"><title>week 26, day 1: activity level 3</title></rect>
+<rect x="454" y="94" width="12" height="12" rx="3" fill="#0e4429"><title>week 26, day 2: activity level 1</title></rect>
+<rect x="454" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 26, day 3: activity level 4</title></rect>
+<rect x="454" y="126" width="12" height="12" rx="3" fill="#26a641"><title>week 26, day 4: activity level 3</title></rect>
+<rect x="454" y="142" width="12" height="12" rx="3" fill="#26a641"><title>week 26, day 5: activity level 3</title></rect>
+<rect x="454" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 26, day 6: activity level 4</title></rect>
+<rect x="454" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 26, day 7: activity level 4</title></rect>
+<rect x="470" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 27, day 1: activity level 4</title></rect>
+<rect x="470" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 27, day 2: activity level 4</title></rect>
+<rect x="470" y="110" width="12" height="12" rx="3" fill="#0e4429"><title>week 27, day 3: activity level 1</title></rect>
+<rect x="470" y="126" width="12" height="12" rx="3" fill="#26a641"><title>week 27, day 4: activity level 3</title></rect>
+<rect x="470" y="142" width="12" height="12" rx="3" fill="#006d32"><title>week 27, day 5: activity level 2</title></rect>
+<rect x="470" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 27, day 6: activity level 2</title></rect>
+<rect x="470" y="174" width="12" height="12" rx="3" fill="#006d32"><title>week 27, day 7: activity level 2</title></rect>
+<rect x="486" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 28, day 1: activity level 4</title></rect>
+<rect x="486" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 28, day 2: activity level 4</title></rect>
+<rect x="486" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 28, day 3: activity level 2</title></rect>
+<rect x="486" y="126" width="12" height="12" rx="3" fill="#0e4429"><title>week 28, day 4: activity level 1</title></rect>
+<rect x="486" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 28, day 5: activity level 4</title></rect>
+<rect x="486" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 28, day 6: activity level 4</title></rect>
+<rect x="486" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 28, day 7: activity level 3</title></rect>
+<rect x="502" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 29, day 1: activity level 4</title></rect>
+<rect x="502" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 29, day 2: activity level 4</title></rect>
+<rect x="502" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 29, day 3: activity level 4</title></rect>
+<rect x="502" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 29, day 4: activity level 4</title></rect>
+<rect x="502" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 29, day 5: activity level 4</title></rect>
+<rect x="502" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 29, day 6: activity level 4</title></rect>
+<rect x="502" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 29, day 7: activity level 4</title></rect>
+<rect x="518" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 30, day 1: activity level 4</title></rect>
+<rect x="518" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 30, day 2: activity level 4</title></rect>
+<rect x="518" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 30, day 3: activity level 2</title></rect>
+<rect x="518" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 30, day 4: activity level 4</title></rect>
+<rect x="518" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 30, day 5: activity level 4</title></rect>
+<rect x="518" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 30, day 6: activity level 3</title></rect>
+<rect x="518" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 30, day 7: activity level 4</title></rect>
+<rect x="534" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 31, day 1: activity level 4</title></rect>
+<rect x="534" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 31, day 2: activity level 4</title></rect>
+<rect x="534" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 31, day 3: activity level 4</title></rect>
+<rect x="534" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 31, day 4: activity level 4</title></rect>
+<rect x="534" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 31, day 5: activity level 4</title></rect>
+<rect x="534" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 31, day 6: activity level 4</title></rect>
+<rect x="534" y="174" width="12" height="12" rx="3" fill="#006d32"><title>week 31, day 7: activity level 2</title></rect>
+<rect x="550" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 32, day 1: activity level 4</title></rect>
+<rect x="550" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 32, day 2: activity level 4</title></rect>
+<rect x="550" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 32, day 3: activity level 4</title></rect>
+<rect x="550" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 32, day 4: activity level 4</title></rect>
+<rect x="550" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 32, day 5: activity level 4</title></rect>
+<rect x="550" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 32, day 6: activity level 4</title></rect>
+<rect x="550" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 32, day 7: activity level 4</title></rect>
+<rect x="566" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 33, day 1: activity level 4</title></rect>
+<rect x="566" y="94" width="12" height="12" rx="3" fill="#26a641"><title>week 33, day 2: activity level 3</title></rect>
+<rect x="566" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 33, day 3: activity level 4</title></rect>
+<rect x="566" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 33, day 4: activity level 2</title></rect>
+<rect x="566" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 33, day 5: activity level 4</title></rect>
+<rect x="566" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 33, day 6: activity level 4</title></rect>
+<rect x="566" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 33, day 7: activity level 4</title></rect>
+<rect x="582" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 34, day 1: activity level 4</title></rect>
+<rect x="582" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 34, day 2: activity level 4</title></rect>
+<rect x="582" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 34, day 3: activity level 4</title></rect>
+<rect x="582" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 34, day 4: activity level 4</title></rect>
+<rect x="582" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 34, day 5: activity level 4</title></rect>
+<rect x="582" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 34, day 6: activity level 4</title></rect>
+<rect x="582" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 34, day 7: activity level 4</title></rect>
+<rect x="598" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 35, day 1: activity level 4</title></rect>
+<rect x="598" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 35, day 2: activity level 4</title></rect>
+<rect x="598" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 35, day 3: activity level 4</title></rect>
+<rect x="598" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 35, day 4: activity level 4</title></rect>
+<rect x="598" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 35, day 5: activity level 4</title></rect>
+<rect x="598" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 35, day 6: activity level 4</title></rect>
+<rect x="598" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 35, day 7: activity level 4</title></rect>
+<rect x="614" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 36, day 1: activity level 4</title></rect>
+<rect x="614" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 36, day 2: activity level 4</title></rect>
+<rect x="614" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 36, day 3: activity level 4</title></rect>
+<rect x="614" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 36, day 4: activity level 2</title></rect>
+<rect x="614" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 36, day 5: activity level 4</title></rect>
+<rect x="614" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 36, day 6: activity level 4</title></rect>
+<rect x="614" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 36, day 7: activity level 3</title></rect>
+<rect x="630" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 37, day 1: activity level 4</title></rect>
+<rect x="630" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 37, day 2: activity level 4</title></rect>
+<rect x="630" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 37, day 3: activity level 4</title></rect>
+<rect x="630" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 37, day 4: activity level 2</title></rect>
+<rect x="630" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 37, day 5: activity level 4</title></rect>
+<rect x="630" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 37, day 6: activity level 4</title></rect>
+<rect x="630" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 37, day 7: activity level 4</title></rect>
+<rect x="646" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 38, day 1: activity level 4</title></rect>
+<rect x="646" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 38, day 2: activity level 4</title></rect>
+<rect x="646" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 38, day 3: activity level 4</title></rect>
+<rect x="646" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 38, day 4: activity level 4</title></rect>
+<rect x="646" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 38, day 5: activity level 4</title></rect>
+<rect x="646" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 38, day 6: activity level 4</title></rect>
+<rect x="646" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 38, day 7: activity level 4</title></rect>
+<rect x="662" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 39, day 1: activity level 4</title></rect>
+<rect x="662" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 39, day 2: activity level 4</title></rect>
+<rect x="662" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 39, day 3: activity level 4</title></rect>
+<rect x="662" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 39, day 4: activity level 4</title></rect>
+<rect x="662" y="142" width="12" height="12" rx="3" fill="#006d32"><title>week 39, day 5: activity level 2</title></rect>
+<rect x="662" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 39, day 6: activity level 4</title></rect>
+<rect x="662" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 39, day 7: activity level 4</title></rect>
+<rect x="678" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 40, day 1: activity level 4</title></rect>
+<rect x="678" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 40, day 2: activity level 4</title></rect>
+<rect x="678" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 40, day 3: activity level 4</title></rect>
+<rect x="678" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 40, day 4: activity level 4</title></rect>
+<rect x="678" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 40, day 5: activity level 4</title></rect>
+<rect x="678" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 40, day 6: activity level 4</title></rect>
+<rect x="678" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 40, day 7: activity level 4</title></rect>
+<rect x="694" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 41, day 1: activity level 4</title></rect>
+<rect x="694" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 41, day 2: activity level 4</title></rect>
+<rect x="694" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 41, day 3: activity level 4</title></rect>
+<rect x="694" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 41, day 4: activity level 4</title></rect>
+<rect x="694" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 41, day 5: activity level 4</title></rect>
+<rect x="694" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 41, day 6: activity level 3</title></rect>
+<rect x="694" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 41, day 7: activity level 4</title></rect>
+<rect x="710" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 42, day 1: activity level 4</title></rect>
+<rect x="710" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 42, day 2: activity level 4</title></rect>
+<rect x="710" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 42, day 3: activity level 4</title></rect>
+<rect x="710" y="126" width="12" height="12" rx="3" fill="#26a641"><title>week 42, day 4: activity level 3</title></rect>
+<rect x="710" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 42, day 5: activity level 4</title></rect>
+<rect x="710" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 42, day 6: activity level 2</title></rect>
+<rect x="710" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 42, day 7: activity level 4</title></rect>
+<rect x="726" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 43, day 1: activity level 4</title></rect>
+<rect x="726" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 43, day 2: activity level 4</title></rect>
+<rect x="726" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 43, day 3: activity level 4</title></rect>
+<rect x="726" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 43, day 4: activity level 4</title></rect>
+<rect x="726" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 43, day 5: activity level 4</title></rect>
+<rect x="726" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 43, day 6: activity level 3</title></rect>
+<rect x="726" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 43, day 7: activity level 4</title></rect>
+<rect x="742" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 44, day 1: activity level 4</title></rect>
+<rect x="742" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 44, day 2: activity level 4</title></rect>
+<rect x="742" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 44, day 3: activity level 4</title></rect>
+<rect x="742" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 44, day 4: activity level 4</title></rect>
+<rect x="742" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 44, day 5: activity level 4</title></rect>
+<rect x="742" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 44, day 6: activity level 3</title></rect>
+<rect x="742" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 44, day 7: activity level 3</title></rect>
+<rect x="758" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 45, day 1: activity level 4</title></rect>
+<rect x="758" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 45, day 2: activity level 4</title></rect>
+<rect x="758" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 45, day 3: activity level 4</title></rect>
+<rect x="758" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 45, day 4: activity level 4</title></rect>
+<rect x="758" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 45, day 5: activity level 4</title></rect>
+<rect x="758" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 45, day 6: activity level 4</title></rect>
+<rect x="758" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 45, day 7: activity level 4</title></rect>
+<rect x="774" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 46, day 1: activity level 4</title></rect>
+<rect x="774" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 46, day 2: activity level 4</title></rect>
+<rect x="774" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 46, day 3: activity level 4</title></rect>
+<rect x="774" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 46, day 4: activity level 4</title></rect>
+<rect x="774" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 46, day 5: activity level 4</title></rect>
+<rect x="774" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 46, day 6: activity level 4</title></rect>
+<rect x="774" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 46, day 7: activity level 3</title></rect>
+<rect x="790" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 47, day 1: activity level 4</title></rect>
+<rect x="790" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 47, day 2: activity level 4</title></rect>
+<rect x="790" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 47, day 3: activity level 4</title></rect>
+<rect x="790" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 47, day 4: activity level 4</title></rect>
+<rect x="790" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 47, day 5: activity level 4</title></rect>
+<rect x="790" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 47, day 6: activity level 4</title></rect>
+<rect x="790" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 47, day 7: activity level 4</title></rect>
+<rect x="806" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 48, day 1: activity level 4</title></rect>
+<rect x="806" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 48, day 2: activity level 4</title></rect>
+<rect x="806" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 48, day 3: activity level 4</title></rect>
+<rect x="806" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 48, day 4: activity level 4</title></rect>
+<rect x="806" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 48, day 5: activity level 4</title></rect>
+<rect x="806" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 48, day 6: activity level 4</title></rect>
+<rect x="806" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 48, day 7: activity level 4</title></rect>
+<rect x="822" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 49, day 1: activity level 4</title></rect>
+<rect x="822" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 49, day 2: activity level 4</title></rect>
+<rect x="822" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 49, day 3: activity level 4</title></rect>
+<rect x="822" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 49, day 4: activity level 4</title></rect>
+<rect x="822" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 49, day 5: activity level 4</title></rect>
+<rect x="822" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 49, day 6: activity level 3</title></rect>
+<rect x="822" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 49, day 7: activity level 4</title></rect>
+<rect x="838" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 50, day 1: activity level 4</title></rect>
+<rect x="838" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 50, day 2: activity level 4</title></rect>
+<rect x="838" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 50, day 3: activity level 4</title></rect>
+<rect x="838" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 50, day 4: activity level 4</title></rect>
+<rect x="838" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 50, day 5: activity level 4</title></rect>
+<rect x="838" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 50, day 6: activity level 3</title></rect>
+<rect x="838" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 50, day 7: activity level 4</title></rect>
+<rect x="854" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 51, day 1: activity level 4</title></rect>
+<rect x="854" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 51, day 2: activity level 4</title></rect>
+<rect x="854" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 51, day 3: activity level 4</title></rect>
+<rect x="854" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 51, day 4: activity level 4</title></rect>
+<rect x="854" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 51, day 5: activity level 4</title></rect>
+<rect x="854" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 51, day 6: activity level 4</title></rect>
+<rect x="854" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 51, day 7: activity level 4</title></rect>
+<rect x="870" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 52, day 1: activity level 4</title></rect>
+<rect x="870" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 52, day 2: activity level 4</title></rect>
+<rect x="870" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 52, day 3: activity level 4</title></rect>
+<rect x="870" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 52, day 4: activity level 4</title></rect>
+<rect x="870" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 52, day 5: activity level 4</title></rect>
+<rect x="870" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 52, day 6: activity level 3</title></rect>
+<rect x="870" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 52, day 7: activity level 4</title></rect>
+<rect x="886" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 53, day 1: activity level 4</title></rect>
+<rect x="886" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 53, day 2: activity level 4</title></rect>
+<rect x="886" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 53, day 3: activity level 4</title></rect>
+<rect x="886" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 53, day 4: activity level 4</title></rect>
+<rect x="886" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 53, day 5: activity level 4</title></rect>
+<rect x="886" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 53, day 6: activity level 4</title></rect>
+<rect x="886" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 53, day 7: activity level 4</title></rect>
+<text x="54" y="218" class="muted mono">Jul 25</text>
+<text x="205" y="218" class="muted mono">Sep</text>
+<text x="352" y="218" class="muted mono">Nov</text>
+<text x="492" y="218" class="muted mono">Jan 26</text>
+<text x="638" y="218" class="muted mono">Mar</text>
+<text x="778" y="218" class="muted mono">May</text>
+<text x="914" y="218" class="muted mono">Jul</text>
+<path d="M34 61H1022" stroke="url(#edge)"/>
+<path d="M34 197H1022" stroke="#21262d"/>
 </svg>

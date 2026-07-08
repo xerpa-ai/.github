@@ -18,59 +18,65 @@
 
 <p align="center">
   <b>Speak an agent into shape. Ship it as a product.</b><br>
-  XAgent turns natural-language product intent into agents that run, connect to tools, publish to a marketplace, and settle usage on-chain.
+  XAgent, also written X-Agent, is an AI agent builder, hosted agent runtime, agent marketplace, and agentic payments platform for teams shipping agent-powered software.
 </p>
 
 <br>
 
-## What We Are Building
+## Operating System for Agentic Products
 
-XAgent is an AI-native agent platform for turning intent into usable software. The builder describes the agent; the runtime gives it memory, tools, and execution; the marketplace makes it discoverable; settlement lets usage become a product loop.
+XAgent is the product and runtime layer for agents that need to move beyond chat: specification, execution, tool access, account context, marketplace distribution, and x402 settlement live inside one coordinated system.
 
-<p>
-  <sub><b>BUILD</b></sub><br>
-  Natural-language product intent becomes an agent people can actually use.
-</p>
+The platform is built as a four-plane architecture:
 
-<p>
-  <sub><b>RUN</b></sub><br>
-  Agents operate with context, tools, wallets, and hosted execution.
-</p>
+- **Intent plane**: natural language becomes structured agent requirements, product flows, skills, and executable plans.
+- **Runtime plane**: hosted agents act with memory, tools, wallets, account connections, queues, and auditable execution state.
+- **Distribution plane**: agents and skills can be published, installed, shared, and surfaced through marketplace channels.
+- **Settlement plane**: usage, budgets, approvals, rewards, and on-chain settlement are treated as first-class product primitives.
 
-<p>
-  <sub><b>DISTRIBUTE</b></sub><br>
-  Published agents become discoverable, shareable, and reusable.
-</p>
+## Documentation
 
-<p>
-  <sub><b>SETTLE</b></sub><br>
-  Usage and monetization are designed around x402 from the start.
-</p>
+Guides and step-by-step tutorials for XAgent live at [docs.xagt.ai](https://docs.xagt.ai).
 
-## Product Surface
+| Guide | Path |
+| --- | --- |
+| Getting started | `xagt.ai` product entry and builder flow |
+| Build your first agent | intent -> builder -> hosted agent product |
+| Payments and x402 settlement | budgets, approvals, usage, and settlement rails |
+| Publish and monetize | marketplace listing, plugin surface, and usage loop |
 
-**XAgent** · [xagt.ai](https://xagt.ai)  
-The product layer for creating, running, publishing, and monetizing agents. The public product site is available; the core application repository is private and not open at this time.
+## Product Matrix
 
-**Xerness** · [public overview](https://github.com/xagentAI/xerness-intro)  
-The orchestration layer for turning requirements into runnable multi-agent systems. The overview repository is public; the core implementation repository is private and not open at this time.
+| Repo | What | Access |
+| --- | --- | --- |
+| [xagt.ai](https://xagt.ai) | Public product surface · agent builder + hosted runtime | public |
+| [xerness-intro](https://github.com/xagentAI/xerness-intro) | Multi-agent orchestration infrastructure · open core overview | public |
+| [docs](https://docs.xagt.ai) | Tutorials, guides, and product documentation | public |
+| [xpense](https://github.com/xagentAI/xpense) | Agent payments SDK · budgets, approvals, x402 settlement | public |
+| [xagt-plugin](https://github.com/xagentAI/xagt-plugin) | OKX Agentic Wallet plugin marketplace surface | public |
+| [xagent-contracts](https://github.com/xagentAI/xagent-contracts) | On-chain contracts for reward points and usage flows | public |
+| [OKX Agent Marketplace](https://www.okx.ai/zh-hans/agents/2183) | Live marketplace listing for on-chain intelligence skills | live service |
+| [okx-agent-marketplace](https://github.com/xagentAI/okx-agent-marketplace) | First-party on-chain intelligence skills and partner integrations | private |
+| XAgent core · orchestrator | Builder pipeline, runtime coordination, billing, and infra | private · NDA |
 
-**Xpense** · [xpense](https://github.com/xagentAI/xpense)<br>
-The payment SDK for agentic budgets, approvals, usage, and x402 settlement. The repository is public.
+## How It Works
 
-**XAGT Plugin** · [xagt-plugin](https://github.com/xagentAI/xagt-plugin)<br>
-The wallet and marketplace extension surface for agent-native commerce. The repository is public.
-
-**Agent Marketplace** · [live on OKX Agents](https://www.okx.ai/zh-hans/agents/2183)<br>
-The distribution layer for first-party and community agent skills. The service is live on OKX Agents; marketplace-facing source code and partner integrations remain private.
-
-**Contracts** · [xagent-contracts](https://github.com/xagentAI/xagent-contracts)  
-Upgradeable smart contracts for XAgent reward points and on-chain usage flows.
+```text
+plain language  ->  Builder  ->  hosted agent product
+                      |
+                      v
+Runtime (acts · remembers · tools · wallet · accounts)
+                      |
+                      v
+Marketplace  ->  Monetize  ->  x402 settle on-chain
+------------------------------------------------------
+xagent-contracts verified · builder pipeline private (NDA)
+```
 
 ## Activity
 
 <div align="center">
-  <img src="./activity-calendar.svg" alt="XAgent public GitHub activity calendar" width="100%">
+  <img src="./activity-calendar.svg" alt="XAgent organization engineering activity calendar" width="100%">
 </div>
 
 ## Find Us
