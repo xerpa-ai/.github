@@ -1,402 +1,389 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1056 250" width="1056" height="250" role="img" aria-label="XAgent organization engineering activity calendar">
-<defs>
-<style>
-.title{font:700 17px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#d8dee9}
-.text{font:600 14px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#c9d1d9}
-.muted{font:500 12px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#6e7681}
-.mono{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}
-</style>
-<linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#30363d"/><stop offset="1" stop-color="#1f6feb" stop-opacity=".16"/></linearGradient>
-</defs>
-<rect width="1056" height="250" rx="10" fill="#0d1117"/>
-<rect x="1" y="1" width="1054" height="248" rx="10" fill="none" stroke="#30363d"/>
-<text x="34" y="46" class="text"><tspan font-weight="700">1,940</tspan><tspan fill="#8b949e"> engineering signals across the organization</tspan></text>
-<text x="922" y="46" class="muted" text-anchor="end">Jul 2025 - present</text>
-<rect x="878" y="34" width="12" height="12" rx="3" fill="#161b22"/>
-<rect x="900" y="34" width="12" height="12" rx="3" fill="#0e4429"/>
-<rect x="922" y="34" width="12" height="12" rx="3" fill="#006d32"/>
-<rect x="944" y="34" width="12" height="12" rx="3" fill="#26a641"/>
-<rect x="966" y="34" width="12" height="12" rx="3" fill="#39d353"/>
-<text x="1002" y="45" class="muted">high</text>
-<text x="838" y="45" class="muted">low</text>
-<rect x="54" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 1, day 1: activity level 4</title></rect>
-<rect x="54" y="94" width="12" height="12" rx="3" fill="#161b22"><title>week 1, day 2: activity level 0</title></rect>
-<rect x="54" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 1, day 3: activity level 2</title></rect>
-<rect x="54" y="126" width="12" height="12" rx="3" fill="#0e4429"><title>week 1, day 4: activity level 1</title></rect>
-<rect x="54" y="142" width="12" height="12" rx="3" fill="#0e4429"><title>week 1, day 5: activity level 1</title></rect>
-<rect x="54" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 1, day 6: activity level 2</title></rect>
-<rect x="54" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 1, day 7: activity level 3</title></rect>
-<rect x="70" y="78" width="12" height="12" rx="3" fill="#006d32"><title>week 2, day 1: activity level 2</title></rect>
-<rect x="70" y="94" width="12" height="12" rx="3" fill="#006d32"><title>week 2, day 2: activity level 2</title></rect>
-<rect x="70" y="110" width="12" height="12" rx="3" fill="#161b22"><title>week 2, day 3: activity level 0</title></rect>
-<rect x="70" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 2, day 4: activity level 2</title></rect>
-<rect x="70" y="142" width="12" height="12" rx="3" fill="#161b22"><title>week 2, day 5: activity level 0</title></rect>
-<rect x="70" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 2, day 6: activity level 2</title></rect>
-<rect x="70" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 2, day 7: activity level 3</title></rect>
-<rect x="86" y="78" width="12" height="12" rx="3" fill="#006d32"><title>week 3, day 1: activity level 2</title></rect>
-<rect x="86" y="94" width="12" height="12" rx="3" fill="#26a641"><title>week 3, day 2: activity level 3</title></rect>
-<rect x="86" y="110" width="12" height="12" rx="3" fill="#161b22"><title>week 3, day 3: activity level 0</title></rect>
-<rect x="86" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 3, day 4: activity level 2</title></rect>
-<rect x="86" y="142" width="12" height="12" rx="3" fill="#0e4429"><title>week 3, day 5: activity level 1</title></rect>
-<rect x="86" y="158" width="12" height="12" rx="3" fill="#161b22"><title>week 3, day 6: activity level 0</title></rect>
-<rect x="86" y="174" width="12" height="12" rx="3" fill="#161b22"><title>week 3, day 7: activity level 0</title></rect>
-<rect x="102" y="78" width="12" height="12" rx="3" fill="#26a641"><title>week 4, day 1: activity level 3</title></rect>
-<rect x="102" y="94" width="12" height="12" rx="3" fill="#006d32"><title>week 4, day 2: activity level 2</title></rect>
-<rect x="102" y="110" width="12" height="12" rx="3" fill="#161b22"><title>week 4, day 3: activity level 0</title></rect>
-<rect x="102" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 4, day 4: activity level 2</title></rect>
-<rect x="102" y="142" width="12" height="12" rx="3" fill="#006d32"><title>week 4, day 5: activity level 2</title></rect>
-<rect x="102" y="158" width="12" height="12" rx="3" fill="#161b22"><title>week 4, day 6: activity level 0</title></rect>
-<rect x="102" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 4, day 7: activity level 3</title></rect>
-<rect x="118" y="78" width="12" height="12" rx="3" fill="#26a641"><title>week 5, day 1: activity level 3</title></rect>
-<rect x="118" y="94" width="12" height="12" rx="3" fill="#0e4429"><title>week 5, day 2: activity level 1</title></rect>
-<rect x="118" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 5, day 3: activity level 2</title></rect>
-<rect x="118" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 5, day 4: activity level 2</title></rect>
-<rect x="118" y="142" width="12" height="12" rx="3" fill="#161b22"><title>week 5, day 5: activity level 0</title></rect>
-<rect x="118" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 5, day 6: activity level 4</title></rect>
-<rect x="118" y="174" width="12" height="12" rx="3" fill="#161b22"><title>week 5, day 7: activity level 0</title></rect>
-<rect x="134" y="78" width="12" height="12" rx="3" fill="#161b22"><title>week 6, day 1: activity level 0</title></rect>
-<rect x="134" y="94" width="12" height="12" rx="3" fill="#161b22"><title>week 6, day 2: activity level 0</title></rect>
-<rect x="134" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 6, day 3: activity level 4</title></rect>
-<rect x="134" y="126" width="12" height="12" rx="3" fill="#0e4429"><title>week 6, day 4: activity level 1</title></rect>
-<rect x="134" y="142" width="12" height="12" rx="3" fill="#161b22"><title>week 6, day 5: activity level 0</title></rect>
-<rect x="134" y="158" width="12" height="12" rx="3" fill="#161b22"><title>week 6, day 6: activity level 0</title></rect>
-<rect x="134" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 6, day 7: activity level 3</title></rect>
-<rect x="150" y="78" width="12" height="12" rx="3" fill="#006d32"><title>week 7, day 1: activity level 2</title></rect>
-<rect x="150" y="94" width="12" height="12" rx="3" fill="#161b22"><title>week 7, day 2: activity level 0</title></rect>
-<rect x="150" y="110" width="12" height="12" rx="3" fill="#0e4429"><title>week 7, day 3: activity level 1</title></rect>
-<rect x="150" y="126" width="12" height="12" rx="3" fill="#0e4429"><title>week 7, day 4: activity level 1</title></rect>
-<rect x="150" y="142" width="12" height="12" rx="3" fill="#161b22"><title>week 7, day 5: activity level 0</title></rect>
-<rect x="150" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 7, day 6: activity level 3</title></rect>
-<rect x="150" y="174" width="12" height="12" rx="3" fill="#006d32"><title>week 7, day 7: activity level 2</title></rect>
-<rect x="166" y="78" width="12" height="12" rx="3" fill="#161b22"><title>week 8, day 1: activity level 0</title></rect>
-<rect x="166" y="94" width="12" height="12" rx="3" fill="#006d32"><title>week 8, day 2: activity level 2</title></rect>
-<rect x="166" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 8, day 3: activity level 2</title></rect>
-<rect x="166" y="126" width="12" height="12" rx="3" fill="#161b22"><title>week 8, day 4: activity level 0</title></rect>
-<rect x="166" y="142" width="12" height="12" rx="3" fill="#26a641"><title>week 8, day 5: activity level 3</title></rect>
-<rect x="166" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 8, day 6: activity level 2</title></rect>
-<rect x="166" y="174" width="12" height="12" rx="3" fill="#0e4429"><title>week 8, day 7: activity level 1</title></rect>
-<rect x="182" y="78" width="12" height="12" rx="3" fill="#0e4429"><title>week 9, day 1: activity level 1</title></rect>
-<rect x="182" y="94" width="12" height="12" rx="3" fill="#161b22"><title>week 9, day 2: activity level 0</title></rect>
-<rect x="182" y="110" width="12" height="12" rx="3" fill="#26a641"><title>week 9, day 3: activity level 3</title></rect>
-<rect x="182" y="126" width="12" height="12" rx="3" fill="#26a641"><title>week 9, day 4: activity level 3</title></rect>
-<rect x="182" y="142" width="12" height="12" rx="3" fill="#0e4429"><title>week 9, day 5: activity level 1</title></rect>
-<rect x="182" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 9, day 6: activity level 2</title></rect>
-<rect x="182" y="174" width="12" height="12" rx="3" fill="#006d32"><title>week 9, day 7: activity level 2</title></rect>
-<rect x="198" y="78" width="12" height="12" rx="3" fill="#161b22"><title>week 10, day 1: activity level 0</title></rect>
-<rect x="198" y="94" width="12" height="12" rx="3" fill="#161b22"><title>week 10, day 2: activity level 0</title></rect>
-<rect x="198" y="110" width="12" height="12" rx="3" fill="#26a641"><title>week 10, day 3: activity level 3</title></rect>
-<rect x="198" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 10, day 4: activity level 2</title></rect>
-<rect x="198" y="142" width="12" height="12" rx="3" fill="#161b22"><title>week 10, day 5: activity level 0</title></rect>
-<rect x="198" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 10, day 6: activity level 2</title></rect>
-<rect x="198" y="174" width="12" height="12" rx="3" fill="#0e4429"><title>week 10, day 7: activity level 1</title></rect>
-<rect x="214" y="78" width="12" height="12" rx="3" fill="#0e4429"><title>week 11, day 1: activity level 1</title></rect>
-<rect x="214" y="94" width="12" height="12" rx="3" fill="#26a641"><title>week 11, day 2: activity level 3</title></rect>
-<rect x="214" y="110" width="12" height="12" rx="3" fill="#0e4429"><title>week 11, day 3: activity level 1</title></rect>
-<rect x="214" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 11, day 4: activity level 2</title></rect>
-<rect x="214" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 11, day 5: activity level 4</title></rect>
-<rect x="214" y="158" width="12" height="12" rx="3" fill="#161b22"><title>week 11, day 6: activity level 0</title></rect>
-<rect x="214" y="174" width="12" height="12" rx="3" fill="#161b22"><title>week 11, day 7: activity level 0</title></rect>
-<rect x="230" y="78" width="12" height="12" rx="3" fill="#26a641"><title>week 12, day 1: activity level 3</title></rect>
-<rect x="230" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 12, day 2: activity level 4</title></rect>
-<rect x="230" y="110" width="12" height="12" rx="3" fill="#26a641"><title>week 12, day 3: activity level 3</title></rect>
-<rect x="230" y="126" width="12" height="12" rx="3" fill="#0e4429"><title>week 12, day 4: activity level 1</title></rect>
-<rect x="230" y="142" width="12" height="12" rx="3" fill="#006d32"><title>week 12, day 5: activity level 2</title></rect>
-<rect x="230" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 12, day 6: activity level 2</title></rect>
-<rect x="230" y="174" width="12" height="12" rx="3" fill="#006d32"><title>week 12, day 7: activity level 2</title></rect>
-<rect x="246" y="78" width="12" height="12" rx="3" fill="#0e4429"><title>week 13, day 1: activity level 1</title></rect>
-<rect x="246" y="94" width="12" height="12" rx="3" fill="#26a641"><title>week 13, day 2: activity level 3</title></rect>
-<rect x="246" y="110" width="12" height="12" rx="3" fill="#0e4429"><title>week 13, day 3: activity level 1</title></rect>
-<rect x="246" y="126" width="12" height="12" rx="3" fill="#0e4429"><title>week 13, day 4: activity level 1</title></rect>
-<rect x="246" y="142" width="12" height="12" rx="3" fill="#161b22"><title>week 13, day 5: activity level 0</title></rect>
-<rect x="246" y="158" width="12" height="12" rx="3" fill="#161b22"><title>week 13, day 6: activity level 0</title></rect>
-<rect x="246" y="174" width="12" height="12" rx="3" fill="#0e4429"><title>week 13, day 7: activity level 1</title></rect>
-<rect x="262" y="78" width="12" height="12" rx="3" fill="#0e4429"><title>week 14, day 1: activity level 1</title></rect>
-<rect x="262" y="94" width="12" height="12" rx="3" fill="#0e4429"><title>week 14, day 2: activity level 1</title></rect>
-<rect x="262" y="110" width="12" height="12" rx="3" fill="#161b22"><title>week 14, day 3: activity level 0</title></rect>
-<rect x="262" y="126" width="12" height="12" rx="3" fill="#0e4429"><title>week 14, day 4: activity level 1</title></rect>
-<rect x="262" y="142" width="12" height="12" rx="3" fill="#0e4429"><title>week 14, day 5: activity level 1</title></rect>
-<rect x="262" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 14, day 6: activity level 2</title></rect>
-<rect x="262" y="174" width="12" height="12" rx="3" fill="#161b22"><title>week 14, day 7: activity level 0</title></rect>
-<rect x="278" y="78" width="12" height="12" rx="3" fill="#006d32"><title>week 15, day 1: activity level 2</title></rect>
-<rect x="278" y="94" width="12" height="12" rx="3" fill="#26a641"><title>week 15, day 2: activity level 3</title></rect>
-<rect x="278" y="110" width="12" height="12" rx="3" fill="#0e4429"><title>week 15, day 3: activity level 1</title></rect>
-<rect x="278" y="126" width="12" height="12" rx="3" fill="#26a641"><title>week 15, day 4: activity level 3</title></rect>
-<rect x="278" y="142" width="12" height="12" rx="3" fill="#006d32"><title>week 15, day 5: activity level 2</title></rect>
-<rect x="278" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 15, day 6: activity level 3</title></rect>
-<rect x="278" y="174" width="12" height="12" rx="3" fill="#0e4429"><title>week 15, day 7: activity level 1</title></rect>
-<rect x="294" y="78" width="12" height="12" rx="3" fill="#26a641"><title>week 16, day 1: activity level 3</title></rect>
-<rect x="294" y="94" width="12" height="12" rx="3" fill="#0e4429"><title>week 16, day 2: activity level 1</title></rect>
-<rect x="294" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 16, day 3: activity level 2</title></rect>
-<rect x="294" y="126" width="12" height="12" rx="3" fill="#26a641"><title>week 16, day 4: activity level 3</title></rect>
-<rect x="294" y="142" width="12" height="12" rx="3" fill="#26a641"><title>week 16, day 5: activity level 3</title></rect>
-<rect x="294" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 16, day 6: activity level 2</title></rect>
-<rect x="294" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 16, day 7: activity level 4</title></rect>
-<rect x="310" y="78" width="12" height="12" rx="3" fill="#0e4429"><title>week 17, day 1: activity level 1</title></rect>
-<rect x="310" y="94" width="12" height="12" rx="3" fill="#006d32"><title>week 17, day 2: activity level 2</title></rect>
-<rect x="310" y="110" width="12" height="12" rx="3" fill="#26a641"><title>week 17, day 3: activity level 3</title></rect>
-<rect x="310" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 17, day 4: activity level 4</title></rect>
-<rect x="310" y="142" width="12" height="12" rx="3" fill="#26a641"><title>week 17, day 5: activity level 3</title></rect>
-<rect x="310" y="158" width="12" height="12" rx="3" fill="#0e4429"><title>week 17, day 6: activity level 1</title></rect>
-<rect x="310" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 17, day 7: activity level 3</title></rect>
-<rect x="326" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 18, day 1: activity level 4</title></rect>
-<rect x="326" y="94" width="12" height="12" rx="3" fill="#006d32"><title>week 18, day 2: activity level 2</title></rect>
-<rect x="326" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 18, day 3: activity level 2</title></rect>
-<rect x="326" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 18, day 4: activity level 4</title></rect>
-<rect x="326" y="142" width="12" height="12" rx="3" fill="#26a641"><title>week 18, day 5: activity level 3</title></rect>
-<rect x="326" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 18, day 6: activity level 3</title></rect>
-<rect x="326" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 18, day 7: activity level 3</title></rect>
-<rect x="342" y="78" width="12" height="12" rx="3" fill="#0e4429"><title>week 19, day 1: activity level 1</title></rect>
-<rect x="342" y="94" width="12" height="12" rx="3" fill="#0e4429"><title>week 19, day 2: activity level 1</title></rect>
-<rect x="342" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 19, day 3: activity level 2</title></rect>
-<rect x="342" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 19, day 4: activity level 4</title></rect>
-<rect x="342" y="142" width="12" height="12" rx="3" fill="#26a641"><title>week 19, day 5: activity level 3</title></rect>
-<rect x="342" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 19, day 6: activity level 2</title></rect>
-<rect x="342" y="174" width="12" height="12" rx="3" fill="#0e4429"><title>week 19, day 7: activity level 1</title></rect>
-<rect x="358" y="78" width="12" height="12" rx="3" fill="#26a641"><title>week 20, day 1: activity level 3</title></rect>
-<rect x="358" y="94" width="12" height="12" rx="3" fill="#006d32"><title>week 20, day 2: activity level 2</title></rect>
-<rect x="358" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 20, day 3: activity level 2</title></rect>
-<rect x="358" y="126" width="12" height="12" rx="3" fill="#26a641"><title>week 20, day 4: activity level 3</title></rect>
-<rect x="358" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 20, day 5: activity level 4</title></rect>
-<rect x="358" y="158" width="12" height="12" rx="3" fill="#0e4429"><title>week 20, day 6: activity level 1</title></rect>
-<rect x="358" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 20, day 7: activity level 3</title></rect>
-<rect x="374" y="78" width="12" height="12" rx="3" fill="#26a641"><title>week 21, day 1: activity level 3</title></rect>
-<rect x="374" y="94" width="12" height="12" rx="3" fill="#006d32"><title>week 21, day 2: activity level 2</title></rect>
-<rect x="374" y="110" width="12" height="12" rx="3" fill="#26a641"><title>week 21, day 3: activity level 3</title></rect>
-<rect x="374" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 21, day 4: activity level 4</title></rect>
-<rect x="374" y="142" width="12" height="12" rx="3" fill="#0e4429"><title>week 21, day 5: activity level 1</title></rect>
-<rect x="374" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 21, day 6: activity level 3</title></rect>
-<rect x="374" y="174" width="12" height="12" rx="3" fill="#0e4429"><title>week 21, day 7: activity level 1</title></rect>
-<rect x="390" y="78" width="12" height="12" rx="3" fill="#26a641"><title>week 22, day 1: activity level 3</title></rect>
-<rect x="390" y="94" width="12" height="12" rx="3" fill="#26a641"><title>week 22, day 2: activity level 3</title></rect>
-<rect x="390" y="110" width="12" height="12" rx="3" fill="#26a641"><title>week 22, day 3: activity level 3</title></rect>
-<rect x="390" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 22, day 4: activity level 4</title></rect>
-<rect x="390" y="142" width="12" height="12" rx="3" fill="#0e4429"><title>week 22, day 5: activity level 1</title></rect>
-<rect x="390" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 22, day 6: activity level 4</title></rect>
-<rect x="390" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 22, day 7: activity level 3</title></rect>
-<rect x="406" y="78" width="12" height="12" rx="3" fill="#26a641"><title>week 23, day 1: activity level 3</title></rect>
-<rect x="406" y="94" width="12" height="12" rx="3" fill="#0e4429"><title>week 23, day 2: activity level 1</title></rect>
-<rect x="406" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 23, day 3: activity level 4</title></rect>
-<rect x="406" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 23, day 4: activity level 2</title></rect>
-<rect x="406" y="142" width="12" height="12" rx="3" fill="#26a641"><title>week 23, day 5: activity level 3</title></rect>
-<rect x="406" y="158" width="12" height="12" rx="3" fill="#0e4429"><title>week 23, day 6: activity level 1</title></rect>
-<rect x="406" y="174" width="12" height="12" rx="3" fill="#006d32"><title>week 23, day 7: activity level 2</title></rect>
-<rect x="422" y="78" width="12" height="12" rx="3" fill="#006d32"><title>week 24, day 1: activity level 2</title></rect>
-<rect x="422" y="94" width="12" height="12" rx="3" fill="#26a641"><title>week 24, day 2: activity level 3</title></rect>
-<rect x="422" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 24, day 3: activity level 2</title></rect>
-<rect x="422" y="126" width="12" height="12" rx="3" fill="#26a641"><title>week 24, day 4: activity level 3</title></rect>
-<rect x="422" y="142" width="12" height="12" rx="3" fill="#26a641"><title>week 24, day 5: activity level 3</title></rect>
-<rect x="422" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 24, day 6: activity level 3</title></rect>
-<rect x="422" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 24, day 7: activity level 3</title></rect>
-<rect x="438" y="78" width="12" height="12" rx="3" fill="#006d32"><title>week 25, day 1: activity level 2</title></rect>
-<rect x="438" y="94" width="12" height="12" rx="3" fill="#006d32"><title>week 25, day 2: activity level 2</title></rect>
-<rect x="438" y="110" width="12" height="12" rx="3" fill="#26a641"><title>week 25, day 3: activity level 3</title></rect>
-<rect x="438" y="126" width="12" height="12" rx="3" fill="#0e4429"><title>week 25, day 4: activity level 1</title></rect>
-<rect x="438" y="142" width="12" height="12" rx="3" fill="#0e4429"><title>week 25, day 5: activity level 1</title></rect>
-<rect x="438" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 25, day 6: activity level 2</title></rect>
-<rect x="438" y="174" width="12" height="12" rx="3" fill="#006d32"><title>week 25, day 7: activity level 2</title></rect>
-<rect x="454" y="78" width="12" height="12" rx="3" fill="#26a641"><title>week 26, day 1: activity level 3</title></rect>
-<rect x="454" y="94" width="12" height="12" rx="3" fill="#0e4429"><title>week 26, day 2: activity level 1</title></rect>
-<rect x="454" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 26, day 3: activity level 4</title></rect>
-<rect x="454" y="126" width="12" height="12" rx="3" fill="#26a641"><title>week 26, day 4: activity level 3</title></rect>
-<rect x="454" y="142" width="12" height="12" rx="3" fill="#26a641"><title>week 26, day 5: activity level 3</title></rect>
-<rect x="454" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 26, day 6: activity level 4</title></rect>
-<rect x="454" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 26, day 7: activity level 4</title></rect>
-<rect x="470" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 27, day 1: activity level 4</title></rect>
-<rect x="470" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 27, day 2: activity level 4</title></rect>
-<rect x="470" y="110" width="12" height="12" rx="3" fill="#0e4429"><title>week 27, day 3: activity level 1</title></rect>
-<rect x="470" y="126" width="12" height="12" rx="3" fill="#26a641"><title>week 27, day 4: activity level 3</title></rect>
-<rect x="470" y="142" width="12" height="12" rx="3" fill="#006d32"><title>week 27, day 5: activity level 2</title></rect>
-<rect x="470" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 27, day 6: activity level 2</title></rect>
-<rect x="470" y="174" width="12" height="12" rx="3" fill="#006d32"><title>week 27, day 7: activity level 2</title></rect>
-<rect x="486" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 28, day 1: activity level 4</title></rect>
-<rect x="486" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 28, day 2: activity level 4</title></rect>
-<rect x="486" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 28, day 3: activity level 2</title></rect>
-<rect x="486" y="126" width="12" height="12" rx="3" fill="#0e4429"><title>week 28, day 4: activity level 1</title></rect>
-<rect x="486" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 28, day 5: activity level 4</title></rect>
-<rect x="486" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 28, day 6: activity level 4</title></rect>
-<rect x="486" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 28, day 7: activity level 3</title></rect>
-<rect x="502" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 29, day 1: activity level 4</title></rect>
-<rect x="502" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 29, day 2: activity level 4</title></rect>
-<rect x="502" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 29, day 3: activity level 4</title></rect>
-<rect x="502" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 29, day 4: activity level 4</title></rect>
-<rect x="502" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 29, day 5: activity level 4</title></rect>
-<rect x="502" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 29, day 6: activity level 4</title></rect>
-<rect x="502" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 29, day 7: activity level 4</title></rect>
-<rect x="518" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 30, day 1: activity level 4</title></rect>
-<rect x="518" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 30, day 2: activity level 4</title></rect>
-<rect x="518" y="110" width="12" height="12" rx="3" fill="#006d32"><title>week 30, day 3: activity level 2</title></rect>
-<rect x="518" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 30, day 4: activity level 4</title></rect>
-<rect x="518" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 30, day 5: activity level 4</title></rect>
-<rect x="518" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 30, day 6: activity level 3</title></rect>
-<rect x="518" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 30, day 7: activity level 4</title></rect>
-<rect x="534" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 31, day 1: activity level 4</title></rect>
-<rect x="534" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 31, day 2: activity level 4</title></rect>
-<rect x="534" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 31, day 3: activity level 4</title></rect>
-<rect x="534" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 31, day 4: activity level 4</title></rect>
-<rect x="534" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 31, day 5: activity level 4</title></rect>
-<rect x="534" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 31, day 6: activity level 4</title></rect>
-<rect x="534" y="174" width="12" height="12" rx="3" fill="#006d32"><title>week 31, day 7: activity level 2</title></rect>
-<rect x="550" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 32, day 1: activity level 4</title></rect>
-<rect x="550" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 32, day 2: activity level 4</title></rect>
-<rect x="550" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 32, day 3: activity level 4</title></rect>
-<rect x="550" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 32, day 4: activity level 4</title></rect>
-<rect x="550" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 32, day 5: activity level 4</title></rect>
-<rect x="550" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 32, day 6: activity level 4</title></rect>
-<rect x="550" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 32, day 7: activity level 4</title></rect>
-<rect x="566" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 33, day 1: activity level 4</title></rect>
-<rect x="566" y="94" width="12" height="12" rx="3" fill="#26a641"><title>week 33, day 2: activity level 3</title></rect>
-<rect x="566" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 33, day 3: activity level 4</title></rect>
-<rect x="566" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 33, day 4: activity level 2</title></rect>
-<rect x="566" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 33, day 5: activity level 4</title></rect>
-<rect x="566" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 33, day 6: activity level 4</title></rect>
-<rect x="566" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 33, day 7: activity level 4</title></rect>
-<rect x="582" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 34, day 1: activity level 4</title></rect>
-<rect x="582" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 34, day 2: activity level 4</title></rect>
-<rect x="582" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 34, day 3: activity level 4</title></rect>
-<rect x="582" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 34, day 4: activity level 4</title></rect>
-<rect x="582" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 34, day 5: activity level 4</title></rect>
-<rect x="582" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 34, day 6: activity level 4</title></rect>
-<rect x="582" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 34, day 7: activity level 4</title></rect>
-<rect x="598" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 35, day 1: activity level 4</title></rect>
-<rect x="598" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 35, day 2: activity level 4</title></rect>
-<rect x="598" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 35, day 3: activity level 4</title></rect>
-<rect x="598" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 35, day 4: activity level 4</title></rect>
-<rect x="598" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 35, day 5: activity level 4</title></rect>
-<rect x="598" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 35, day 6: activity level 4</title></rect>
-<rect x="598" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 35, day 7: activity level 4</title></rect>
-<rect x="614" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 36, day 1: activity level 4</title></rect>
-<rect x="614" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 36, day 2: activity level 4</title></rect>
-<rect x="614" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 36, day 3: activity level 4</title></rect>
-<rect x="614" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 36, day 4: activity level 2</title></rect>
-<rect x="614" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 36, day 5: activity level 4</title></rect>
-<rect x="614" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 36, day 6: activity level 4</title></rect>
-<rect x="614" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 36, day 7: activity level 3</title></rect>
-<rect x="630" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 37, day 1: activity level 4</title></rect>
-<rect x="630" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 37, day 2: activity level 4</title></rect>
-<rect x="630" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 37, day 3: activity level 4</title></rect>
-<rect x="630" y="126" width="12" height="12" rx="3" fill="#006d32"><title>week 37, day 4: activity level 2</title></rect>
-<rect x="630" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 37, day 5: activity level 4</title></rect>
-<rect x="630" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 37, day 6: activity level 4</title></rect>
-<rect x="630" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 37, day 7: activity level 4</title></rect>
-<rect x="646" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 38, day 1: activity level 4</title></rect>
-<rect x="646" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 38, day 2: activity level 4</title></rect>
-<rect x="646" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 38, day 3: activity level 4</title></rect>
-<rect x="646" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 38, day 4: activity level 4</title></rect>
-<rect x="646" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 38, day 5: activity level 4</title></rect>
-<rect x="646" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 38, day 6: activity level 4</title></rect>
-<rect x="646" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 38, day 7: activity level 4</title></rect>
-<rect x="662" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 39, day 1: activity level 4</title></rect>
-<rect x="662" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 39, day 2: activity level 4</title></rect>
-<rect x="662" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 39, day 3: activity level 4</title></rect>
-<rect x="662" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 39, day 4: activity level 4</title></rect>
-<rect x="662" y="142" width="12" height="12" rx="3" fill="#006d32"><title>week 39, day 5: activity level 2</title></rect>
-<rect x="662" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 39, day 6: activity level 4</title></rect>
-<rect x="662" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 39, day 7: activity level 4</title></rect>
-<rect x="678" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 40, day 1: activity level 4</title></rect>
-<rect x="678" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 40, day 2: activity level 4</title></rect>
-<rect x="678" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 40, day 3: activity level 4</title></rect>
-<rect x="678" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 40, day 4: activity level 4</title></rect>
-<rect x="678" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 40, day 5: activity level 4</title></rect>
-<rect x="678" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 40, day 6: activity level 4</title></rect>
-<rect x="678" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 40, day 7: activity level 4</title></rect>
-<rect x="694" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 41, day 1: activity level 4</title></rect>
-<rect x="694" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 41, day 2: activity level 4</title></rect>
-<rect x="694" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 41, day 3: activity level 4</title></rect>
-<rect x="694" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 41, day 4: activity level 4</title></rect>
-<rect x="694" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 41, day 5: activity level 4</title></rect>
-<rect x="694" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 41, day 6: activity level 3</title></rect>
-<rect x="694" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 41, day 7: activity level 4</title></rect>
-<rect x="710" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 42, day 1: activity level 4</title></rect>
-<rect x="710" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 42, day 2: activity level 4</title></rect>
-<rect x="710" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 42, day 3: activity level 4</title></rect>
-<rect x="710" y="126" width="12" height="12" rx="3" fill="#26a641"><title>week 42, day 4: activity level 3</title></rect>
-<rect x="710" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 42, day 5: activity level 4</title></rect>
-<rect x="710" y="158" width="12" height="12" rx="3" fill="#006d32"><title>week 42, day 6: activity level 2</title></rect>
-<rect x="710" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 42, day 7: activity level 4</title></rect>
-<rect x="726" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 43, day 1: activity level 4</title></rect>
-<rect x="726" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 43, day 2: activity level 4</title></rect>
-<rect x="726" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 43, day 3: activity level 4</title></rect>
-<rect x="726" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 43, day 4: activity level 4</title></rect>
-<rect x="726" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 43, day 5: activity level 4</title></rect>
-<rect x="726" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 43, day 6: activity level 3</title></rect>
-<rect x="726" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 43, day 7: activity level 4</title></rect>
-<rect x="742" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 44, day 1: activity level 4</title></rect>
-<rect x="742" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 44, day 2: activity level 4</title></rect>
-<rect x="742" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 44, day 3: activity level 4</title></rect>
-<rect x="742" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 44, day 4: activity level 4</title></rect>
-<rect x="742" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 44, day 5: activity level 4</title></rect>
-<rect x="742" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 44, day 6: activity level 3</title></rect>
-<rect x="742" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 44, day 7: activity level 3</title></rect>
-<rect x="758" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 45, day 1: activity level 4</title></rect>
-<rect x="758" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 45, day 2: activity level 4</title></rect>
-<rect x="758" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 45, day 3: activity level 4</title></rect>
-<rect x="758" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 45, day 4: activity level 4</title></rect>
-<rect x="758" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 45, day 5: activity level 4</title></rect>
-<rect x="758" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 45, day 6: activity level 4</title></rect>
-<rect x="758" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 45, day 7: activity level 4</title></rect>
-<rect x="774" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 46, day 1: activity level 4</title></rect>
-<rect x="774" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 46, day 2: activity level 4</title></rect>
-<rect x="774" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 46, day 3: activity level 4</title></rect>
-<rect x="774" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 46, day 4: activity level 4</title></rect>
-<rect x="774" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 46, day 5: activity level 4</title></rect>
-<rect x="774" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 46, day 6: activity level 4</title></rect>
-<rect x="774" y="174" width="12" height="12" rx="3" fill="#26a641"><title>week 46, day 7: activity level 3</title></rect>
-<rect x="790" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 47, day 1: activity level 4</title></rect>
-<rect x="790" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 47, day 2: activity level 4</title></rect>
-<rect x="790" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 47, day 3: activity level 4</title></rect>
-<rect x="790" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 47, day 4: activity level 4</title></rect>
-<rect x="790" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 47, day 5: activity level 4</title></rect>
-<rect x="790" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 47, day 6: activity level 4</title></rect>
-<rect x="790" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 47, day 7: activity level 4</title></rect>
-<rect x="806" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 48, day 1: activity level 4</title></rect>
-<rect x="806" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 48, day 2: activity level 4</title></rect>
-<rect x="806" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 48, day 3: activity level 4</title></rect>
-<rect x="806" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 48, day 4: activity level 4</title></rect>
-<rect x="806" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 48, day 5: activity level 4</title></rect>
-<rect x="806" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 48, day 6: activity level 4</title></rect>
-<rect x="806" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 48, day 7: activity level 4</title></rect>
-<rect x="822" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 49, day 1: activity level 4</title></rect>
-<rect x="822" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 49, day 2: activity level 4</title></rect>
-<rect x="822" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 49, day 3: activity level 4</title></rect>
-<rect x="822" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 49, day 4: activity level 4</title></rect>
-<rect x="822" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 49, day 5: activity level 4</title></rect>
-<rect x="822" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 49, day 6: activity level 3</title></rect>
-<rect x="822" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 49, day 7: activity level 4</title></rect>
-<rect x="838" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 50, day 1: activity level 4</title></rect>
-<rect x="838" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 50, day 2: activity level 4</title></rect>
-<rect x="838" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 50, day 3: activity level 4</title></rect>
-<rect x="838" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 50, day 4: activity level 4</title></rect>
-<rect x="838" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 50, day 5: activity level 4</title></rect>
-<rect x="838" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 50, day 6: activity level 3</title></rect>
-<rect x="838" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 50, day 7: activity level 4</title></rect>
-<rect x="854" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 51, day 1: activity level 4</title></rect>
-<rect x="854" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 51, day 2: activity level 4</title></rect>
-<rect x="854" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 51, day 3: activity level 4</title></rect>
-<rect x="854" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 51, day 4: activity level 4</title></rect>
-<rect x="854" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 51, day 5: activity level 4</title></rect>
-<rect x="854" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 51, day 6: activity level 4</title></rect>
-<rect x="854" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 51, day 7: activity level 4</title></rect>
-<rect x="870" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 52, day 1: activity level 4</title></rect>
-<rect x="870" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 52, day 2: activity level 4</title></rect>
-<rect x="870" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 52, day 3: activity level 4</title></rect>
-<rect x="870" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 52, day 4: activity level 4</title></rect>
-<rect x="870" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 52, day 5: activity level 4</title></rect>
-<rect x="870" y="158" width="12" height="12" rx="3" fill="#26a641"><title>week 52, day 6: activity level 3</title></rect>
-<rect x="870" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 52, day 7: activity level 4</title></rect>
-<rect x="886" y="78" width="12" height="12" rx="3" fill="#39d353"><title>week 53, day 1: activity level 4</title></rect>
-<rect x="886" y="94" width="12" height="12" rx="3" fill="#39d353"><title>week 53, day 2: activity level 4</title></rect>
-<rect x="886" y="110" width="12" height="12" rx="3" fill="#39d353"><title>week 53, day 3: activity level 4</title></rect>
-<rect x="886" y="126" width="12" height="12" rx="3" fill="#39d353"><title>week 53, day 4: activity level 4</title></rect>
-<rect x="886" y="142" width="12" height="12" rx="3" fill="#39d353"><title>week 53, day 5: activity level 4</title></rect>
-<rect x="886" y="158" width="12" height="12" rx="3" fill="#39d353"><title>week 53, day 6: activity level 4</title></rect>
-<rect x="886" y="174" width="12" height="12" rx="3" fill="#39d353"><title>week 53, day 7: activity level 4</title></rect>
-<text x="54" y="218" class="muted mono">Jul 25</text>
-<text x="205" y="218" class="muted mono">Sep</text>
-<text x="352" y="218" class="muted mono">Nov</text>
-<text x="492" y="218" class="muted mono">Jan 26</text>
-<text x="638" y="218" class="muted mono">Mar</text>
-<text x="778" y="218" class="muted mono">May</text>
-<text x="914" y="218" class="muted mono">Jul</text>
-<path d="M34 61H1022" stroke="url(#edge)"/>
-<path d="M34 197H1022" stroke="#21262d"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1056 260" width="1056" height="260" role="img" aria-label="XAgent public activity calendar">
+<defs><pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="#EEF3F0" stroke-width="1"/></pattern><style>.title{font:700 18px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#1D2329}.meta{font:600 12px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#7B8A82}.month{font:500 10px SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;letter-spacing:1.5px;fill:#8B9690}.mono{font:600 10px SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;letter-spacing:2px;fill:#7B8A82}</style></defs>
+<rect width="1056" height="260" rx="16" fill="#FFFFFF"/><rect width="1056" height="260" rx="16" fill="url(#grid)"/><rect x="1" y="1" width="1054" height="258" rx="16" fill="none" stroke="#DFE7E2"/>
+<text x="42" y="42" class="title">Activity</text><text x="42" y="66" class="meta">1,940 public and repository signals across the XAgent organization</text><text x="1014" y="42" text-anchor="end" class="mono">JUL 2025 - PRESENT</text>
+<path d="M42 76H1014" stroke="#DCE5DF"/><path d="M42 76H294" stroke="#53DE97" stroke-width="2"/>
+<rect x="74" y="86" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="74" y="102" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="74" y="118" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="74" y="134" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="74" y="150" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="74" y="166" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="74" y="182" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="90" y="86" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="90" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="90" y="118" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="90" y="134" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="90" y="150" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="90" y="166" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="90" y="182" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="106" y="86" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="106" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="106" y="118" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="106" y="134" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="106" y="150" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="106" y="166" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="106" y="182" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="122" y="86" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="122" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="122" y="118" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="122" y="134" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="122" y="150" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="122" y="166" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="122" y="182" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="138" y="86" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="138" y="102" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="138" y="118" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="138" y="134" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="138" y="150" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="138" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="138" y="182" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="154" y="86" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="154" y="102" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="154" y="118" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="154" y="134" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="154" y="150" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="154" y="166" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="154" y="182" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="170" y="86" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="170" y="102" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="170" y="118" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="170" y="134" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="170" y="150" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="170" y="166" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="170" y="182" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="186" y="86" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="186" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="186" y="118" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="186" y="134" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="186" y="150" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="186" y="166" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="186" y="182" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="202" y="86" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="202" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="202" y="118" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="202" y="134" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="202" y="150" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="202" y="166" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="202" y="182" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="218" y="86" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="218" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="218" y="118" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="218" y="134" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="218" y="150" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="218" y="166" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="218" y="182" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="234" y="86" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="234" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="234" y="118" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="234" y="134" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="234" y="150" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="234" y="166" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="234" y="182" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="250" y="86" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="250" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="250" y="118" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="250" y="134" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="250" y="150" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="250" y="166" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="250" y="182" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="266" y="86" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="266" y="102" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="266" y="118" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="266" y="134" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="266" y="150" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="266" y="166" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="266" y="182" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="282" y="86" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="282" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="282" y="118" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="282" y="134" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="282" y="150" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="282" y="166" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="282" y="182" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="298" y="86" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="298" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="298" y="118" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="298" y="134" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="298" y="150" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="298" y="166" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="298" y="182" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="314" y="86" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="314" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="314" y="118" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="314" y="134" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="314" y="150" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="314" y="166" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="314" y="182" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="330" y="86" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="330" y="102" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="330" y="118" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="330" y="134" width="11" height="11" rx="3" fill="#F3F8F5" stroke="#D6E6DD" stroke-width="1"><title>activity level 0</title></rect>
+<rect x="330" y="150" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="330" y="166" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="330" y="182" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="346" y="86" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="346" y="102" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="346" y="118" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="346" y="134" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="346" y="150" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="346" y="166" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="346" y="182" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="362" y="86" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="362" y="102" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="362" y="118" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="362" y="134" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="362" y="150" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="362" y="166" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="362" y="182" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="378" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="378" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="378" y="118" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="378" y="134" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="378" y="150" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="378" y="166" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="378" y="182" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="394" y="86" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="394" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="394" y="118" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="394" y="134" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="394" y="150" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="394" y="166" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="394" y="182" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="410" y="86" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="410" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="410" y="118" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="410" y="134" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="410" y="150" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="410" y="166" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="410" y="182" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="426" y="86" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="426" y="102" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="426" y="118" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="426" y="134" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="426" y="150" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="426" y="166" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="426" y="182" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="442" y="86" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="442" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="442" y="118" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="442" y="134" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="442" y="150" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="442" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="442" y="182" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="458" y="86" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="458" y="102" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="458" y="118" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="458" y="134" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="458" y="150" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="458" y="166" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="458" y="182" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="474" y="86" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="474" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="474" y="118" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="474" y="134" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="474" y="150" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="474" y="166" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="474" y="182" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="490" y="86" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="490" y="102" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="490" y="118" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="490" y="134" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="490" y="150" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="490" y="166" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="490" y="182" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="506" y="86" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="506" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="506" y="118" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="506" y="134" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="506" y="150" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="506" y="166" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="506" y="182" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="522" y="86" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="522" y="102" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="522" y="118" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="522" y="134" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="522" y="150" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="522" y="166" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="522" y="182" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="538" y="86" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="538" y="102" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="538" y="118" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="538" y="134" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="538" y="150" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="538" y="166" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="538" y="182" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="554" y="86" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="554" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="554" y="118" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="554" y="134" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="554" y="150" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="554" y="166" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="554" y="182" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="570" y="86" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="570" y="102" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="570" y="118" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="570" y="134" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="570" y="150" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="570" y="166" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="570" y="182" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="586" y="86" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="586" y="102" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="586" y="118" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="586" y="134" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="586" y="150" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="586" y="166" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="586" y="182" width="11" height="11" rx="3" fill="#DDF6E8" stroke="#D6E6DD" stroke-width="1"><title>activity level 1</title></rect>
+<rect x="602" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="602" y="102" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="602" y="118" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="602" y="134" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="602" y="150" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="602" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="602" y="182" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="618" y="86" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="618" y="102" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="618" y="118" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="618" y="134" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="618" y="150" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="618" y="166" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="618" y="182" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="634" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="634" y="102" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="634" y="118" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="634" y="134" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="634" y="150" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="634" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="634" y="182" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="650" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="650" y="102" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="650" y="118" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="650" y="134" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="650" y="150" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="650" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="650" y="182" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="666" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="666" y="102" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="666" y="118" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="666" y="134" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="666" y="150" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="666" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="666" y="182" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="682" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="682" y="102" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="682" y="118" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="682" y="134" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="682" y="150" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="682" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="682" y="182" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="698" y="86" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="698" y="102" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="698" y="118" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="698" y="134" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="698" y="150" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="698" y="166" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="698" y="182" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="714" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="714" y="102" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="714" y="118" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="714" y="134" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="714" y="150" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="714" y="166" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="714" y="182" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="730" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="730" y="102" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="730" y="118" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="730" y="134" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="730" y="150" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="730" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="730" y="182" width="11" height="11" rx="3" fill="#A9EDCA" stroke="#D6E6DD" stroke-width="1"><title>activity level 2</title></rect>
+<rect x="746" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="746" y="102" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="746" y="118" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="746" y="134" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="746" y="150" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="746" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="746" y="182" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="762" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="762" y="102" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="762" y="118" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="762" y="134" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="762" y="150" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="762" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="762" y="182" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="778" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="778" y="102" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="778" y="118" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="778" y="134" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="778" y="150" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="778" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="778" y="182" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="794" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="794" y="102" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="794" y="118" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="794" y="134" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="794" y="150" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="794" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="794" y="182" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="810" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="810" y="102" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="810" y="118" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="810" y="134" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="810" y="150" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="810" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="810" y="182" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="826" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="826" y="102" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="826" y="118" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="826" y="134" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="826" y="150" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="826" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="826" y="182" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="842" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="842" y="102" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="842" y="118" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="842" y="134" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="842" y="150" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="842" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="842" y="182" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="858" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="858" y="102" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="858" y="118" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="858" y="134" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="858" y="150" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="858" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="858" y="182" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="874" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="874" y="102" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="874" y="118" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="874" y="134" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="874" y="150" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="874" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="874" y="182" width="11" height="11" rx="3" fill="#5FE3A1" stroke="#D6E6DD" stroke-width="1"><title>activity level 3</title></rect>
+<rect x="890" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="890" y="102" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="890" y="118" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="890" y="134" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="890" y="150" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="890" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="890" y="182" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="906" y="86" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="906" y="102" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="906" y="118" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="906" y="134" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="906" y="150" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="906" y="166" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<rect x="906" y="182" width="11" height="11" rx="3" fill="#22A96D" stroke="#D6E6DD" stroke-width="1"><title>activity level 4</title></rect>
+<text x="74" y="219" class="month">JUL 25</text>
+<text x="224" y="219" class="month">SEP</text>
+<text x="374" y="219" class="month">NOV</text>
+<text x="520" y="219" class="month">JAN 26</text>
+<text x="668" y="219" class="month">MAR</text>
+<text x="818" y="219" class="month">MAY</text>
+<text x="940" y="219" class="month">JUL</text>
+<text x="788" y="52" class="meta">low</text><rect x="820" y="42" width="12" height="12" rx="3" fill="#F3F8F5" stroke="#D6E6DD"/>
+<rect x="842" y="42" width="12" height="12" rx="3" fill="#DDF6E8" stroke="#D6E6DD"/>
+<rect x="864" y="42" width="12" height="12" rx="3" fill="#A9EDCA" stroke="#D6E6DD"/>
+<rect x="886" y="42" width="12" height="12" rx="3" fill="#5FE3A1" stroke="#D6E6DD"/>
+<rect x="908" y="42" width="12" height="12" rx="3" fill="#22A96D" stroke="#D6E6DD"/><text x="940" y="52" class="meta">high</text>
 </svg>

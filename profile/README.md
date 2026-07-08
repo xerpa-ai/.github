@@ -34,16 +34,16 @@ The platform is built as a four-plane architecture:
 - **Distribution plane**: agents and skills can be published, installed, shared, and surfaced through marketplace channels.
 - **Settlement plane**: usage, budgets, approvals, rewards, and on-chain settlement are treated as first-class product primitives.
 
-## Documentation
+## System Surface
 
-Guides and step-by-step tutorials for XAgent live at [docs.xagt.ai](https://docs.xagt.ai).
+XAgent is designed as a product stack, not a single repository. The public surface explains the product; the open repositories expose the reusable rails; the private core carries orchestration, runtime coordination, and launch-critical infrastructure.
 
-| Guide | Path |
+| Layer | Role |
 | --- | --- |
-| Getting started | `xagt.ai` product entry and builder flow |
-| Build your first agent | intent -> builder -> hosted agent product |
-| Payments and x402 settlement | budgets, approvals, usage, and settlement rails |
-| Publish and monetize | marketplace listing, plugin surface, and usage loop |
+| Product | `xagt.ai` entry point, builder flow, public agent surface |
+| Runtime | hosted execution, memory, tools, accounts, wallets |
+| Commerce | budgets, approvals, x402 settlement, marketplace monetization |
+| Protocol | contracts, reward points, wallet/plugin integrations |
 
 ## Product Matrix
 
