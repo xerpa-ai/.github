@@ -11,6 +11,12 @@
 </p>
 
 <p align="center">
+  <a href="https://www.saashub.com/xagent?utm_source=badge&utm_campaign=badge&utm_content=xagent&badge_variant=color&badge_kind=approved">
+    <img src="https://cdn-b.saashub.com/img/badges/approved-color.png?v=1" alt="XAgent badge on SaaSHub" width="150">
+  </a>
+</p>
+
+<p align="center">
   <b>Speak an agent into shape. Ship it as a product.</b><br>
   XAgent turns natural-language product intent into agents that run, connect to tools, publish to a marketplace, and settle usage on-chain.
 </p>
