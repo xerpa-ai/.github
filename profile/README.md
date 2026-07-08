@@ -49,15 +49,23 @@ XAgent is an AI-native agent platform for turning intent into usable software. T
 
 ## Product Surface
 
-**XAgent** is the product layer: create, run, publish, and monetize agents.
+**XAgent** · [xagt.ai](https://xagt.ai)  
+The product layer for creating, running, publishing, and monetizing agents. The public product site is available; the core application repository is private and not open at this time.
 
-**Xerness** is the orchestration layer: turn requirements into runnable multi-agent systems.
+**Xerness** · [public overview](https://github.com/xagentAI/xerness-intro)  
+The orchestration layer for turning requirements into runnable multi-agent systems. The overview repository is public; the core implementation repository is private and not open at this time.
 
-**Xpense** is the payment layer: budgets, approvals, usage, and settlement.
+**Xpense** · not public yet  
+The payment layer for budgets, approvals, usage, and settlement. This work is part of the internal product stack and is not open at this time.
 
-**XAGT Plugin** extends the wallet and marketplace surface for agent-native commerce.
+**XAGT Plugin** · not public yet  
+The wallet and marketplace extension surface for agent-native commerce. The implementation is not open at this time.
 
-**Agent Marketplace** is the distribution layer for first-party and community agent skills.
+**Agent Marketplace** · not public yet  
+The distribution layer for first-party and community agent skills. Marketplace-facing code and partner integrations are not open at this time.
+
+**Contracts** · [xagent-contracts](https://github.com/xagentAI/xagent-contracts)  
+Upgradeable smart contracts for XAgent reward points and on-chain usage flows.
 
 ## Activity
 
