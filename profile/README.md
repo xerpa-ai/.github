@@ -55,14 +55,14 @@ The product layer for creating, running, publishing, and monetizing agents. The 
 **Xerness** · [public overview](https://github.com/xagentAI/xerness-intro)  
 The orchestration layer for turning requirements into runnable multi-agent systems. The overview repository is public; the core implementation repository is private and not open at this time.
 
-**Xpense** · not public yet  
-The payment layer for budgets, approvals, usage, and settlement. This work is part of the internal product stack and is not open at this time.
+**Xpense** · [xpense](https://github.com/xagentAI/xpense)<br>
+The payment SDK for agentic budgets, approvals, usage, and x402 settlement. The repository is public.
 
-**XAGT Plugin** · not public yet  
-The wallet and marketplace extension surface for agent-native commerce. The implementation is not open at this time.
+**XAGT Plugin** · [xagt-plugin](https://github.com/xagentAI/xagt-plugin)<br>
+The wallet and marketplace extension surface for agent-native commerce. The repository is public.
 
-**Agent Marketplace** · not public yet  
-The distribution layer for first-party and community agent skills. Marketplace-facing code and partner integrations are not open at this time.
+**Agent Marketplace** · [live on OKX Agents](https://www.okx.ai/zh-hans/agents/2183)<br>
+The distribution layer for first-party and community agent skills. The service is live on OKX Agents; marketplace-facing source code and partner integrations remain private.
 
 **Contracts** · [xagent-contracts](https://github.com/xagentAI/xagent-contracts)  
 Upgradeable smart contracts for XAgent reward points and on-chain usage flows.
